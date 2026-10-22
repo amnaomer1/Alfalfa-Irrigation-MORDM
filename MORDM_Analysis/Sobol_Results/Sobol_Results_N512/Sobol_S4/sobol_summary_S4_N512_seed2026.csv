@@ -1,0 +1,2 @@
+strategy_id,strategy_label,N,seed,workers,chunksize,number_of_runs,failures,status,elapsed_hours,mean_irrigation_mm,std_irrigation_mm,mean_yield_mg_ha,std_yield_mg_ha,pareto_irr_mean,pareto_yld_mean
+S4,S4 Moderate-high production,512,2026,14,1,14336,0,complete,0.3634910000027796,4583.419878697344,1082.413373187188,112.57468750808164,27.415940829983064,4587.87889898246,112.7502878361576

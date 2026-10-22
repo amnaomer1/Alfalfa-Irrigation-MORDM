@@ -1,0 +1,781 @@
+param1,param2,S2,abs_S2,parameter_1_label,parameter_2_label,strategy_id,objective
+kc_scale,p_depletion,0.0127770922007228,0.0127770922007228,Kc,p,S1,irr
+kc_scale,theta_s_raw,-0.0075645836563009,0.0075645836563009,Kc,theta_s,S1,irr
+kc_scale,theta_r_raw,-0.0074968693746725,0.0074968693746725,Kc,theta_r,S1,irr
+kc_scale,pwp_raw,-0.0073313837088478,0.0073313837088478,Kc,PWP,S1,irr
+kc_scale,temperature_dormancy_threshold,-0.0068194594100762,0.0068194594100762,Kc,Dormancy temperature,S1,irr
+kc_scale,K_sat,-0.0066223727815412,0.0066223727815412,Kc,Ksat,S1,irr
+kc_scale,n,-0.0066223727815412,0.0066223727815412,Kc,n,S1,irr
+kc_scale,wp_scale,-0.0066223727815412,0.0066223727815412,Kc,WP,S1,irr
+kc_scale,Kmitsch_scale,-0.0066223727815412,0.0066223727815412,Kc,Km,S1,irr
+kc_scale,AWC_raw,-0.0063660014357905,0.0063660014357905,Kc,AWC,S1,irr
+kc_scale,root_depth_mm,-0.0063187699430227,0.0063187699430227,Kc,RD,S1,irr
+p_depletion,climate_window_u,0.006161000348551,0.006161000348551,p,Climate window,S1,irr
+climate_window_u,theta_s_raw,0.0049171913824146,0.0049171913824146,Climate window,theta_s,S1,irr
+climate_window_u,theta_r_raw,0.0048433548868239,0.0048433548868239,Climate window,theta_r,S1,irr
+climate_window_u,K_sat,0.0047239798708108,0.0047239798708108,Climate window,Ksat,S1,irr
+climate_window_u,n,0.0047239798708108,0.0047239798708108,Climate window,n,S1,irr
+climate_window_u,pwp_raw,0.0047059803450298,0.0047059803450298,Climate window,PWP,S1,irr
+kc_scale,climate_window_u,-0.0046415057263446,0.0046415057263446,Kc,Climate window,S1,irr
+climate_window_u,AWC_raw,0.0044541527140617,0.0044541527140617,Climate window,AWC,S1,irr
+climate_window_u,root_depth_mm,0.0039046839689754,0.0039046839689754,Climate window,RD,S1,irr
+p_depletion,theta_s_raw,0.0031503002568842,0.0031503002568842,p,theta_s,S1,irr
+p_depletion,theta_r_raw,0.0026467549073533,0.0026467549073533,p,theta_r,S1,irr
+p_depletion,n,0.0022323847658506,0.0022323847658506,p,n,S1,irr
+p_depletion,wp_scale,0.0022323847658506,0.0022323847658506,p,WP,S1,irr
+p_depletion,K_sat,0.0022323847658506,0.0022323847658506,p,Ksat,S1,irr
+p_depletion,Kmitsch_scale,0.0022323847658506,0.0022323847658506,p,Km,S1,irr
+p_depletion,root_depth_mm,0.0018260105549889,0.0018260105549889,p,RD,S1,irr
+p_depletion,AWC_raw,0.0018186249283587,0.0018186249283587,p,AWC,S1,irr
+p_depletion,pwp_raw,0.001774475789455,0.001774475789455,p,PWP,S1,irr
+root_depth_mm,pwp_raw,-0.0009382597525556,0.0009382597525556,RD,PWP,S1,irr
+root_depth_mm,K_sat,-0.0009314317667961,0.0009314317667961,RD,Ksat,S1,irr
+root_depth_mm,n,-0.0009314317667961,0.0009314317667961,RD,n,S1,irr
+root_depth_mm,theta_s_raw,-0.0008972614039187,0.0008972614039187,RD,theta_s,S1,irr
+root_depth_mm,theta_r_raw,-0.0008239183629626,0.0008239183629626,RD,theta_r,S1,irr
+theta_r_raw,pwp_raw,-0.0005936226660103,0.0005936226660103,theta_r,PWP,S1,irr
+theta_r_raw,n,-0.0005910930168119,0.0005910930168119,theta_r,n,S1,irr
+theta_s_raw,theta_r_raw,0.0005878944052762,0.0005878944052762,theta_s,theta_r,S1,irr
+theta_s_raw,pwp_raw,0.0005655514685351,0.0005655514685351,theta_s,PWP,S1,irr
+theta_s_raw,n,0.0004946156119663,0.0004946156119663,theta_s,n,S1,irr
+AWC_raw,root_depth_mm,0.000427651446582,0.000427651446582,AWC,RD,S1,irr
+AWC_raw,theta_r_raw,-0.0001543018603418,0.0001543018603418,AWC,theta_r,S1,irr
+AWC_raw,pwp_raw,-9.56471824604301e-05,9.56471824604301e-05,AWC,PWP,S1,irr
+AWC_raw,K_sat,-8.801976629532965e-05,8.801976629532965e-05,AWC,Ksat,S1,irr
+AWC_raw,n,-8.801976629532965e-05,8.801976629532965e-05,AWC,n,S1,irr
+temperature_dormancy_threshold,AWC_raw,-8.115904674831087e-05,8.115904674831087e-05,Dormancy temperature,AWC,S1,irr
+temperature_dormancy_threshold,climate_window_u,-8.038629064366365e-05,8.038629064366365e-05,Dormancy temperature,Climate window,S1,irr
+temperature_dormancy_threshold,theta_s_raw,-8.01462188663549e-05,8.01462188663549e-05,Dormancy temperature,theta_s,S1,irr
+temperature_dormancy_threshold,pwp_raw,-8.014339148668451e-05,8.014339148668451e-05,Dormancy temperature,PWP,S1,irr
+temperature_dormancy_threshold,wp_scale,-8.012452299610254e-05,8.012452299610254e-05,Dormancy temperature,WP,S1,irr
+temperature_dormancy_threshold,n,-8.012452299610254e-05,8.012452299610254e-05,Dormancy temperature,n,S1,irr
+temperature_dormancy_threshold,K_sat,-8.012452299610254e-05,8.012452299610254e-05,Dormancy temperature,Ksat,S1,irr
+temperature_dormancy_threshold,Kmitsch_scale,-8.012452299610254e-05,8.012452299610254e-05,Dormancy temperature,Km,S1,irr
+temperature_dormancy_threshold,theta_r_raw,-8.005977946742382e-05,8.005977946742382e-05,Dormancy temperature,theta_r,S1,irr
+temperature_dormancy_threshold,root_depth_mm,-7.911018487849041e-05,7.911018487849041e-05,Dormancy temperature,RD,S1,irr
+temperature_dormancy_threshold,p_depletion,-7.824329252970053e-05,7.824329252970053e-05,Dormancy temperature,p,S1,irr
+AWC_raw,theta_s_raw,-6.619356254629501e-06,6.619356254629501e-06,AWC,theta_s,S1,irr
+wp_scale,root_depth_mm,2.6020852139652106e-18,2.6020852139652106e-18,WP,RD,S1,irr
+Kmitsch_scale,root_depth_mm,2.6020852139652106e-18,2.6020852139652106e-18,Km,RD,S1,irr
+wp_scale,AWC_raw,-2.6020852139652106e-18,2.6020852139652106e-18,WP,AWC,S1,irr
+Kmitsch_scale,AWC_raw,-2.6020852139652106e-18,2.6020852139652106e-18,Km,AWC,S1,irr
+K_sat,theta_s_raw,-8.673617379884035e-19,8.673617379884035e-19,Ksat,theta_s,S1,irr
+wp_scale,theta_s_raw,-8.673617379884035e-19,8.673617379884035e-19,WP,theta_s,S1,irr
+Kmitsch_scale,theta_s_raw,-8.673617379884035e-19,8.673617379884035e-19,Km,theta_s,S1,irr
+n,pwp_raw,-2.1684043449710093e-19,2.1684043449710093e-19,n,PWP,S1,irr
+wp_scale,pwp_raw,-2.1684043449710093e-19,2.1684043449710093e-19,WP,PWP,S1,irr
+Kmitsch_scale,pwp_raw,-2.1684043449710093e-19,2.1684043449710093e-19,Km,PWP,S1,irr
+K_sat,pwp_raw,-2.1684043449710093e-19,2.1684043449710093e-19,Ksat,PWP,S1,irr
+wp_scale,theta_r_raw,-1.0842021724855044e-19,1.0842021724855044e-19,WP,theta_r,S1,irr
+K_sat,theta_r_raw,-1.0842021724855044e-19,1.0842021724855044e-19,Ksat,theta_r,S1,irr
+Kmitsch_scale,theta_r_raw,-1.0842021724855044e-19,1.0842021724855044e-19,Km,theta_r,S1,irr
+Kmitsch_scale,climate_window_u,0.0,0.0,Km,Climate window,S1,irr
+wp_scale,K_sat,0.0,0.0,WP,Ksat,S1,irr
+Kmitsch_scale,K_sat,0.0,0.0,Km,Ksat,S1,irr
+K_sat,n,0.0,0.0,Ksat,n,S1,irr
+wp_scale,climate_window_u,0.0,0.0,WP,Climate window,S1,irr
+wp_scale,n,0.0,0.0,WP,n,S1,irr
+wp_scale,Kmitsch_scale,0.0,0.0,WP,Km,S1,irr
+Kmitsch_scale,n,0.0,0.0,Km,n,S1,irr
+kc_scale,p_depletion,0.0207890935599208,0.0207890935599208,Kc,p,S2,irr
+p_depletion,climate_window_u,0.0158333148326025,0.0158333148326025,p,Climate window,S2,irr
+p_depletion,theta_s_raw,0.0130924844361825,0.0130924844361825,p,theta_s,S2,irr
+p_depletion,theta_r_raw,0.0110281853013072,0.0110281853013072,p,theta_r,S2,irr
+p_depletion,wp_scale,0.0110237004242916,0.0110237004242916,p,WP,S2,irr
+p_depletion,K_sat,0.0110237004242916,0.0110237004242916,p,Ksat,S2,irr
+p_depletion,Kmitsch_scale,0.0110237004242916,0.0110237004242916,p,Km,S2,irr
+p_depletion,n,0.0110237004242916,0.0110237004242916,p,n,S2,irr
+p_depletion,AWC_raw,0.0108063833550441,0.0108063833550441,p,AWC,S2,irr
+p_depletion,root_depth_mm,0.0095599373786358,0.0095599373786358,p,RD,S2,irr
+kc_scale,theta_r_raw,-0.0093307399827293,0.0093307399827293,Kc,theta_r,S2,irr
+p_depletion,pwp_raw,0.0090042411830848,0.0090042411830848,p,PWP,S2,irr
+AWC_raw,theta_s_raw,-0.0076473324124703,0.0076473324124703,AWC,theta_s,S2,irr
+kc_scale,theta_s_raw,-0.0075331755305769,0.0075331755305769,Kc,theta_s,S2,irr
+AWC_raw,n,-0.0074052686993916,0.0074052686993916,AWC,n,S2,irr
+AWC_raw,K_sat,-0.0074052686993916,0.0074052686993916,AWC,Ksat,S2,irr
+AWC_raw,pwp_raw,-0.0071124094574685,0.0071124094574685,AWC,PWP,S2,irr
+AWC_raw,theta_r_raw,-0.0069821801646614,0.0069821801646614,AWC,theta_r,S2,irr
+kc_scale,root_depth_mm,-0.0068413608104863,0.0068413608104863,Kc,RD,S2,irr
+kc_scale,pwp_raw,-0.0058977494857692,0.0058977494857692,Kc,PWP,S2,irr
+kc_scale,temperature_dormancy_threshold,-0.0054911979903293,0.0054911979903293,Kc,Dormancy temperature,S2,irr
+kc_scale,Kmitsch_scale,-0.0054546486743096,0.0054546486743096,Kc,Km,S2,irr
+kc_scale,wp_scale,-0.0054546486743096,0.0054546486743096,Kc,WP,S2,irr
+kc_scale,n,-0.0054546486743096,0.0054546486743096,Kc,n,S2,irr
+kc_scale,K_sat,-0.0054546486743096,0.0054546486743096,Kc,Ksat,S2,irr
+kc_scale,AWC_raw,-0.0050339507222422,0.0050339507222422,Kc,AWC,S2,irr
+kc_scale,climate_window_u,-0.0034994387065515,0.0034994387065515,Kc,Climate window,S2,irr
+AWC_raw,root_depth_mm,-0.0032393458954696,0.0032393458954696,AWC,RD,S2,irr
+theta_r_raw,pwp_raw,-0.0031606130665266,0.0031606130665266,theta_r,PWP,S2,irr
+theta_r_raw,n,-0.0031506144626688,0.0031506144626688,theta_r,n,S2,irr
+climate_window_u,root_depth_mm,0.0012993742558491,0.0012993742558491,Climate window,RD,S2,irr
+theta_s_raw,n,-0.0010953013033521,0.0010953013033521,theta_s,n,S2,irr
+theta_s_raw,theta_r_raw,-0.0010230786723836,0.0010230786723836,theta_s,theta_r,S2,irr
+climate_window_u,theta_r_raw,0.0010211356155184,0.0010211356155184,Climate window,theta_r,S2,irr
+climate_window_u,pwp_raw,0.0007812694858727,0.0007812694858727,Climate window,PWP,S2,irr
+theta_s_raw,pwp_raw,-0.0006906721080578,0.0006906721080578,theta_s,PWP,S2,irr
+climate_window_u,n,0.000625997869697,0.000625997869697,Climate window,n,S2,irr
+climate_window_u,K_sat,0.000625997869697,0.000625997869697,Climate window,Ksat,S2,irr
+root_depth_mm,K_sat,-0.0005547777146451,0.0005547777146451,RD,Ksat,S2,irr
+root_depth_mm,n,-0.0005547777146451,0.0005547777146451,RD,n,S2,irr
+climate_window_u,AWC_raw,0.0004806590994603,0.0004806590994603,Climate window,AWC,S2,irr
+root_depth_mm,pwp_raw,-0.0004622165694471,0.0004622165694471,RD,PWP,S2,irr
+climate_window_u,theta_s_raw,0.0004611939334534,0.0004611939334534,Climate window,theta_s,S2,irr
+root_depth_mm,theta_r_raw,-0.0002957823608645,0.0002957823608645,RD,theta_r,S2,irr
+root_depth_mm,theta_s_raw,0.0001060881670692,0.0001060881670692,RD,theta_s,S2,irr
+temperature_dormancy_threshold,AWC_raw,-4.0799912412993466e-05,4.0799912412993466e-05,Dormancy temperature,AWC,S2,irr
+temperature_dormancy_threshold,theta_r_raw,-3.884428298882043e-05,3.884428298882043e-05,Dormancy temperature,theta_r,S2,irr
+temperature_dormancy_threshold,theta_s_raw,-3.8130463476654126e-05,3.8130463476654126e-05,Dormancy temperature,theta_s,S2,irr
+temperature_dormancy_threshold,wp_scale,-3.7446816958830426e-05,3.7446816958830426e-05,Dormancy temperature,WP,S2,irr
+temperature_dormancy_threshold,K_sat,-3.7446816958830426e-05,3.7446816958830426e-05,Dormancy temperature,Ksat,S2,irr
+temperature_dormancy_threshold,n,-3.7446816958830426e-05,3.7446816958830426e-05,Dormancy temperature,n,S2,irr
+temperature_dormancy_threshold,Kmitsch_scale,-3.7446816958830426e-05,3.7446816958830426e-05,Dormancy temperature,Km,S2,irr
+temperature_dormancy_threshold,pwp_raw,-3.738360077912132e-05,3.738360077912132e-05,Dormancy temperature,PWP,S2,irr
+temperature_dormancy_threshold,climate_window_u,-3.560975410862692e-05,3.560975410862692e-05,Dormancy temperature,Climate window,S2,irr
+temperature_dormancy_threshold,root_depth_mm,-3.474448067608028e-05,3.474448067608028e-05,Dormancy temperature,RD,S2,irr
+temperature_dormancy_threshold,p_depletion,-3.262685546706612e-05,3.262685546706612e-05,Dormancy temperature,p,S2,irr
+wp_scale,root_depth_mm,5.204170427930421e-18,5.204170427930421e-18,WP,RD,S2,irr
+Kmitsch_scale,root_depth_mm,5.204170427930421e-18,5.204170427930421e-18,Km,RD,S2,irr
+wp_scale,pwp_raw,6.505213034913028e-19,6.505213034913028e-19,WP,PWP,S2,irr
+K_sat,pwp_raw,6.505213034913028e-19,6.505213034913028e-19,Ksat,PWP,S2,irr
+Kmitsch_scale,pwp_raw,6.505213034913028e-19,6.505213034913028e-19,Km,PWP,S2,irr
+n,pwp_raw,6.505213034913028e-19,6.505213034913028e-19,n,PWP,S2,irr
+wp_scale,theta_r_raw,-2.1684043449710093e-19,2.1684043449710093e-19,WP,theta_r,S2,irr
+K_sat,theta_r_raw,-2.1684043449710093e-19,2.1684043449710093e-19,Ksat,theta_r,S2,irr
+Kmitsch_scale,theta_r_raw,-2.1684043449710093e-19,2.1684043449710093e-19,Km,theta_r,S2,irr
+Kmitsch_scale,theta_s_raw,1.0842021724855044e-19,1.0842021724855044e-19,Km,theta_s,S2,irr
+K_sat,theta_s_raw,1.0842021724855044e-19,1.0842021724855044e-19,Ksat,theta_s,S2,irr
+wp_scale,theta_s_raw,1.0842021724855044e-19,1.0842021724855044e-19,WP,theta_s,S2,irr
+wp_scale,n,0.0,0.0,WP,n,S2,irr
+Kmitsch_scale,n,0.0,0.0,Km,n,S2,irr
+Kmitsch_scale,AWC_raw,0.0,0.0,Km,AWC,S2,irr
+wp_scale,climate_window_u,0.0,0.0,WP,Climate window,S2,irr
+Kmitsch_scale,climate_window_u,0.0,0.0,Km,Climate window,S2,irr
+Kmitsch_scale,K_sat,0.0,0.0,Km,Ksat,S2,irr
+K_sat,n,0.0,0.0,Ksat,n,S2,irr
+wp_scale,AWC_raw,0.0,0.0,WP,AWC,S2,irr
+wp_scale,Kmitsch_scale,0.0,0.0,WP,Km,S2,irr
+wp_scale,K_sat,0.0,0.0,WP,Ksat,S2,irr
+kc_scale,p_depletion,0.0060227725129854,0.0060227725129854,Kc,p,S3,irr
+kc_scale,pwp_raw,-0.0039094377035034,0.0039094377035034,Kc,PWP,S3,irr
+kc_scale,theta_s_raw,-0.0034695177245254,0.0034695177245254,Kc,theta_s,S3,irr
+p_depletion,climate_window_u,0.0033638825544354,0.0033638825544354,p,Climate window,S3,irr
+kc_scale,wp_scale,-0.0033427095988811,0.0033427095988811,Kc,WP,S3,irr
+kc_scale,Kmitsch_scale,-0.0033427095988811,0.0033427095988811,Kc,Km,S3,irr
+kc_scale,n,-0.0033427095988811,0.0033427095988811,Kc,n,S3,irr
+kc_scale,K_sat,-0.0033427095988811,0.0033427095988811,Kc,Ksat,S3,irr
+kc_scale,temperature_dormancy_threshold,-0.0033334087339172,0.0033334087339172,Kc,Dormancy temperature,S3,irr
+kc_scale,AWC_raw,-0.0032498422379618,0.0032498422379618,Kc,AWC,S3,irr
+AWC_raw,theta_r_raw,0.0032249690595145,0.0032249690595145,AWC,theta_r,S3,irr
+AWC_raw,theta_s_raw,0.003112562575773,0.003112562575773,AWC,theta_s,S3,irr
+AWC_raw,pwp_raw,0.0031078138145445,0.0031078138145445,AWC,PWP,S3,irr
+AWC_raw,root_depth_mm,0.0030834454180245,0.0030834454180245,AWC,RD,S3,irr
+AWC_raw,K_sat,0.0030200282861653,0.0030200282861653,AWC,Ksat,S3,irr
+AWC_raw,n,0.0030200282861653,0.0030200282861653,AWC,n,S3,irr
+kc_scale,root_depth_mm,-0.002731726290014,0.002731726290014,Kc,RD,S3,irr
+kc_scale,climate_window_u,-0.0026428465354191,0.0026428465354191,Kc,Climate window,S3,irr
+kc_scale,theta_r_raw,-0.0025797920585851,0.0025797920585851,Kc,theta_r,S3,irr
+p_depletion,pwp_raw,0.001544843281166,0.001544843281166,p,PWP,S3,irr
+root_depth_mm,pwp_raw,0.0013875783300866,0.0013875783300866,RD,PWP,S3,irr
+root_depth_mm,n,0.0013142864985904,0.0013142864985904,RD,n,S3,irr
+root_depth_mm,K_sat,0.0013142864985904,0.0013142864985904,RD,Ksat,S3,irr
+root_depth_mm,theta_r_raw,0.0013136558346862,0.0013136558346862,RD,theta_r,S3,irr
+root_depth_mm,theta_s_raw,0.0012456131971979,0.0012456131971979,RD,theta_s,S3,irr
+p_depletion,theta_s_raw,0.0008107919109769,0.0008107919109769,p,theta_s,S3,irr
+climate_window_u,n,0.000714958551849,0.000714958551849,Climate window,n,S3,irr
+climate_window_u,K_sat,0.000714958551849,0.000714958551849,Climate window,Ksat,S3,irr
+theta_s_raw,pwp_raw,0.0006694111597164,0.0006694111597164,theta_s,PWP,S3,irr
+climate_window_u,root_depth_mm,0.0006668812021942,0.0006668812021942,Climate window,RD,S3,irr
+climate_window_u,theta_s_raw,0.0006547682968554,0.0006547682968554,Climate window,theta_s,S3,irr
+theta_s_raw,theta_r_raw,0.0006541738710614,0.0006541738710614,theta_s,theta_r,S3,irr
+climate_window_u,AWC_raw,0.000598314673252,0.000598314673252,Climate window,AWC,S3,irr
+p_depletion,AWC_raw,0.0005882840234377,0.0005882840234377,p,AWC,S3,irr
+climate_window_u,pwp_raw,0.0005585937947394,0.0005585937947394,Climate window,PWP,S3,irr
+p_depletion,theta_r_raw,0.0005562369436524,0.0005562369436524,p,theta_r,S3,irr
+climate_window_u,theta_r_raw,0.0005018565882848,0.0005018565882848,Climate window,theta_r,S3,irr
+p_depletion,n,0.0004790436854725,0.0004790436854725,p,n,S3,irr
+p_depletion,Kmitsch_scale,0.0004790436854725,0.0004790436854725,p,Km,S3,irr
+p_depletion,K_sat,0.0004790436854725,0.0004790436854725,p,Ksat,S3,irr
+p_depletion,wp_scale,0.0004790436854725,0.0004790436854725,p,WP,S3,irr
+p_depletion,root_depth_mm,0.0004220493305487,0.0004220493305487,p,RD,S3,irr
+theta_s_raw,n,0.0004115176220143,0.0004115176220143,theta_s,n,S3,irr
+theta_r_raw,pwp_raw,0.0002189844750826,0.0002189844750826,theta_r,PWP,S3,irr
+theta_r_raw,n,0.0002112426828058,0.0002112426828058,theta_r,n,S3,irr
+temperature_dormancy_threshold,p_depletion,-2.521179155673403e-05,2.521179155673403e-05,Dormancy temperature,p,S3,irr
+temperature_dormancy_threshold,AWC_raw,-1.56813445261585e-05,1.56813445261585e-05,Dormancy temperature,AWC,S3,irr
+temperature_dormancy_threshold,pwp_raw,-1.3551607392618833e-05,1.3551607392618833e-05,Dormancy temperature,PWP,S3,irr
+temperature_dormancy_threshold,K_sat,-1.349321956569995e-05,1.349321956569995e-05,Dormancy temperature,Ksat,S3,irr
+temperature_dormancy_threshold,wp_scale,-1.349321956569995e-05,1.349321956569995e-05,Dormancy temperature,WP,S3,irr
+temperature_dormancy_threshold,n,-1.349321956569995e-05,1.349321956569995e-05,Dormancy temperature,n,S3,irr
+temperature_dormancy_threshold,Kmitsch_scale,-1.349321956569995e-05,1.349321956569995e-05,Dormancy temperature,Km,S3,irr
+temperature_dormancy_threshold,root_depth_mm,-1.2796450747490362e-05,1.2796450747490362e-05,Dormancy temperature,RD,S3,irr
+temperature_dormancy_threshold,theta_r_raw,-1.2355849689642349e-05,1.2355849689642349e-05,Dormancy temperature,theta_r,S3,irr
+temperature_dormancy_threshold,theta_s_raw,-1.1833105221229075e-05,1.1833105221229075e-05,Dormancy temperature,theta_s,S3,irr
+temperature_dormancy_threshold,climate_window_u,-8.867154668319027e-06,8.867154668319027e-06,Dormancy temperature,Climate window,S3,irr
+wp_scale,root_depth_mm,3.469446951953614e-18,3.469446951953614e-18,WP,RD,S3,irr
+Kmitsch_scale,root_depth_mm,3.469446951953614e-18,3.469446951953614e-18,Km,RD,S3,irr
+wp_scale,theta_s_raw,-1.5178830414797062e-18,1.5178830414797062e-18,WP,theta_s,S3,irr
+Kmitsch_scale,theta_s_raw,-1.5178830414797062e-18,1.5178830414797062e-18,Km,theta_s,S3,irr
+K_sat,theta_s_raw,-1.5178830414797062e-18,1.5178830414797062e-18,Ksat,theta_s,S3,irr
+wp_scale,AWC_raw,-8.673617379884035e-19,8.673617379884035e-19,WP,AWC,S3,irr
+Kmitsch_scale,AWC_raw,-8.673617379884035e-19,8.673617379884035e-19,Km,AWC,S3,irr
+Kmitsch_scale,theta_r_raw,-2.1684043449710093e-19,2.1684043449710093e-19,Km,theta_r,S3,irr
+K_sat,theta_r_raw,-2.1684043449710093e-19,2.1684043449710093e-19,Ksat,theta_r,S3,irr
+wp_scale,theta_r_raw,-2.1684043449710093e-19,2.1684043449710093e-19,WP,theta_r,S3,irr
+wp_scale,pwp_raw,1.626303258728257e-19,1.626303258728257e-19,WP,PWP,S3,irr
+n,pwp_raw,1.626303258728257e-19,1.626303258728257e-19,n,PWP,S3,irr
+K_sat,pwp_raw,1.626303258728257e-19,1.626303258728257e-19,Ksat,PWP,S3,irr
+Kmitsch_scale,pwp_raw,1.626303258728257e-19,1.626303258728257e-19,Km,PWP,S3,irr
+wp_scale,Kmitsch_scale,0.0,0.0,WP,Km,S3,irr
+Kmitsch_scale,n,0.0,0.0,Km,n,S3,irr
+wp_scale,climate_window_u,0.0,0.0,WP,Climate window,S3,irr
+wp_scale,K_sat,0.0,0.0,WP,Ksat,S3,irr
+K_sat,n,0.0,0.0,Ksat,n,S3,irr
+Kmitsch_scale,K_sat,0.0,0.0,Km,Ksat,S3,irr
+Kmitsch_scale,climate_window_u,0.0,0.0,Km,Climate window,S3,irr
+wp_scale,n,0.0,0.0,WP,n,S3,irr
+kc_scale,AWC_raw,-0.0036641053467787,0.0036641053467787,Kc,AWC,S4,irr
+p_depletion,theta_s_raw,-0.003577710402785,0.003577710402785,p,theta_s,S4,irr
+kc_scale,temperature_dormancy_threshold,-0.0035218342259385,0.0035218342259385,Kc,Dormancy temperature,S4,irr
+kc_scale,wp_scale,-0.003512196796152,0.003512196796152,Kc,WP,S4,irr
+kc_scale,K_sat,-0.003512196796152,0.003512196796152,Kc,Ksat,S4,irr
+kc_scale,Kmitsch_scale,-0.003512196796152,0.003512196796152,Kc,Km,S4,irr
+kc_scale,n,-0.003512196796152,0.003512196796152,Kc,n,S4,irr
+kc_scale,theta_s_raw,-0.0034293145024081,0.0034293145024081,Kc,theta_s,S4,irr
+p_depletion,n,-0.0033417581857896,0.0033417581857896,p,n,S4,irr
+p_depletion,K_sat,-0.0033417581857896,0.0033417581857896,p,Ksat,S4,irr
+p_depletion,Kmitsch_scale,-0.0033417581857896,0.0033417581857896,p,Km,S4,irr
+p_depletion,wp_scale,-0.0033417581857896,0.0033417581857896,p,WP,S4,irr
+kc_scale,pwp_raw,-0.0031854669632601,0.0031854669632601,Kc,PWP,S4,irr
+p_depletion,pwp_raw,-0.0030064547265452,0.0030064547265452,p,PWP,S4,irr
+kc_scale,p_depletion,-0.0029797942520231,0.0029797942520231,Kc,p,S4,irr
+p_depletion,theta_r_raw,-0.0028686245497292,0.0028686245497292,p,theta_r,S4,irr
+kc_scale,theta_r_raw,-0.0028669436351396,0.0028669436351396,Kc,theta_r,S4,irr
+p_depletion,AWC_raw,-0.0022615938820497,0.0022615938820497,p,AWC,S4,irr
+p_depletion,climate_window_u,-0.0021088341608617,0.0021088341608617,p,Climate window,S4,irr
+AWC_raw,theta_r_raw,-0.0020425099274049,0.0020425099274049,AWC,theta_r,S4,irr
+kc_scale,climate_window_u,-0.0019969961104938,0.0019969961104938,Kc,Climate window,S4,irr
+AWC_raw,pwp_raw,-0.0019890022964789,0.0019890022964789,AWC,PWP,S4,irr
+AWC_raw,K_sat,-0.0019506064675002,0.0019506064675002,AWC,Ksat,S4,irr
+AWC_raw,n,-0.0019506064675002,0.0019506064675002,AWC,n,S4,irr
+AWC_raw,theta_s_raw,-0.0019100222419354,0.0019100222419354,AWC,theta_s,S4,irr
+AWC_raw,root_depth_mm,-0.0015765810858927,0.0015765810858927,AWC,RD,S4,irr
+climate_window_u,AWC_raw,0.0014961433852486,0.0014961433852486,Climate window,AWC,S4,irr
+theta_s_raw,pwp_raw,-0.0014933345910398,0.0014933345910398,theta_s,PWP,S4,irr
+theta_s_raw,n,-0.0014780280559074,0.0014780280559074,theta_s,n,S4,irr
+theta_r_raw,n,0.0014376796889815,0.0014376796889815,theta_r,n,S4,irr
+theta_r_raw,pwp_raw,0.0014356710344288,0.0014356710344288,theta_r,PWP,S4,irr
+kc_scale,root_depth_mm,-0.0014331362255084,0.0014331362255084,Kc,RD,S4,irr
+theta_s_raw,theta_r_raw,-0.0013793574173276,0.0013793574173276,theta_s,theta_r,S4,irr
+climate_window_u,pwp_raw,0.00127607148064,0.00127607148064,Climate window,PWP,S4,irr
+climate_window_u,theta_s_raw,0.0010422024542153,0.0010422024542153,Climate window,theta_s,S4,irr
+climate_window_u,theta_r_raw,0.0009972483901671,0.0009972483901671,Climate window,theta_r,S4,irr
+climate_window_u,n,0.0009957653254142,0.0009957653254142,Climate window,n,S4,irr
+climate_window_u,K_sat,0.0009957653254142,0.0009957653254142,Climate window,Ksat,S4,irr
+climate_window_u,root_depth_mm,0.0004583890749757,0.0004583890749757,Climate window,RD,S4,irr
+p_depletion,root_depth_mm,-0.000257474880358,0.000257474880358,p,RD,S4,irr
+root_depth_mm,n,-9.783580703069336e-05,9.783580703069336e-05,RD,n,S4,irr
+root_depth_mm,K_sat,-9.783580703069336e-05,9.783580703069336e-05,RD,Ksat,S4,irr
+root_depth_mm,pwp_raw,-8.780215810147451e-05,8.780215810147451e-05,RD,PWP,S4,irr
+root_depth_mm,theta_r_raw,-5.9147127203809614e-05,5.9147127203809614e-05,RD,theta_r,S4,irr
+root_depth_mm,theta_s_raw,-2.911175631132211e-05,2.911175631132211e-05,RD,theta_s,S4,irr
+temperature_dormancy_threshold,root_depth_mm,-1.44094235904562e-05,1.44094235904562e-05,Dormancy temperature,RD,S4,irr
+temperature_dormancy_threshold,pwp_raw,-9.211702961778052e-06,9.211702961778052e-06,Dormancy temperature,PWP,S4,irr
+temperature_dormancy_threshold,wp_scale,-8.917865257863062e-06,8.917865257863062e-06,Dormancy temperature,WP,S4,irr
+temperature_dormancy_threshold,K_sat,-8.917865257863062e-06,8.917865257863062e-06,Dormancy temperature,Ksat,S4,irr
+temperature_dormancy_threshold,n,-8.917865257863062e-06,8.917865257863062e-06,Dormancy temperature,n,S4,irr
+temperature_dormancy_threshold,Kmitsch_scale,-8.917865257863062e-06,8.917865257863062e-06,Dormancy temperature,Km,S4,irr
+temperature_dormancy_threshold,theta_s_raw,-8.591670367612833e-06,8.591670367612833e-06,Dormancy temperature,theta_s,S4,irr
+temperature_dormancy_threshold,theta_r_raw,-8.546124005794466e-06,8.546124005794466e-06,Dormancy temperature,theta_r,S4,irr
+temperature_dormancy_threshold,AWC_raw,-6.360677697015869e-06,6.360677697015869e-06,Dormancy temperature,AWC,S4,irr
+temperature_dormancy_threshold,p_depletion,-3.4284381161264754e-06,3.4284381161264754e-06,Dormancy temperature,p,S4,irr
+temperature_dormancy_threshold,climate_window_u,-2.44394270766668e-06,2.44394270766668e-06,Dormancy temperature,Climate window,S4,irr
+Kmitsch_scale,climate_window_u,3.469446951953614e-18,3.469446951953614e-18,Km,Climate window,S4,irr
+wp_scale,climate_window_u,3.469446951953614e-18,3.469446951953614e-18,WP,Climate window,S4,irr
+Kmitsch_scale,root_depth_mm,-1.3010426069826053e-18,1.3010426069826053e-18,Km,RD,S4,irr
+wp_scale,root_depth_mm,-1.3010426069826053e-18,1.3010426069826053e-18,WP,RD,S4,irr
+wp_scale,pwp_raw,7.589415207398531e-19,7.589415207398531e-19,WP,PWP,S4,irr
+K_sat,pwp_raw,7.589415207398531e-19,7.589415207398531e-19,Ksat,PWP,S4,irr
+Kmitsch_scale,pwp_raw,7.589415207398531e-19,7.589415207398531e-19,Km,PWP,S4,irr
+n,pwp_raw,7.589415207398531e-19,7.589415207398531e-19,n,PWP,S4,irr
+wp_scale,theta_r_raw,-4.336808689942019e-19,4.336808689942019e-19,WP,theta_r,S4,irr
+Kmitsch_scale,theta_r_raw,-4.336808689942019e-19,4.336808689942019e-19,Km,theta_r,S4,irr
+K_sat,theta_r_raw,-4.336808689942019e-19,4.336808689942019e-19,Ksat,theta_r,S4,irr
+K_sat,theta_s_raw,-1.0842021724855044e-19,1.0842021724855044e-19,Ksat,theta_s,S4,irr
+Kmitsch_scale,theta_s_raw,-1.0842021724855044e-19,1.0842021724855044e-19,Km,theta_s,S4,irr
+wp_scale,theta_s_raw,-1.0842021724855044e-19,1.0842021724855044e-19,WP,theta_s,S4,irr
+wp_scale,K_sat,0.0,0.0,WP,Ksat,S4,irr
+K_sat,n,0.0,0.0,Ksat,n,S4,irr
+wp_scale,n,0.0,0.0,WP,n,S4,irr
+wp_scale,Kmitsch_scale,0.0,0.0,WP,Km,S4,irr
+Kmitsch_scale,n,0.0,0.0,Km,n,S4,irr
+Kmitsch_scale,K_sat,0.0,0.0,Km,Ksat,S4,irr
+wp_scale,AWC_raw,0.0,0.0,WP,AWC,S4,irr
+Kmitsch_scale,AWC_raw,0.0,0.0,Km,AWC,S4,irr
+kc_scale,p_depletion,0.0034147433389278,0.0034147433389278,Kc,p,S5,irr
+p_depletion,root_depth_mm,0.0026573370420711,0.0026573370420711,p,RD,S5,irr
+kc_scale,root_depth_mm,-0.00234186594883,0.00234186594883,Kc,RD,S5,irr
+climate_window_u,root_depth_mm,-0.0021673791810197,0.0021673791810197,Climate window,RD,S5,irr
+p_depletion,pwp_raw,0.0021273048180085,0.0021273048180085,p,PWP,S5,irr
+p_depletion,AWC_raw,0.0020588174853107,0.0020588174853107,p,AWC,S5,irr
+kc_scale,wp_scale,-0.0020352909018495,0.0020352909018495,Kc,WP,S5,irr
+kc_scale,Kmitsch_scale,-0.0020352909018495,0.0020352909018495,Kc,Km,S5,irr
+kc_scale,n,-0.0020352909018495,0.0020352909018495,Kc,n,S5,irr
+kc_scale,K_sat,-0.0020352909018495,0.0020352909018495,Kc,Ksat,S5,irr
+kc_scale,temperature_dormancy_threshold,-0.0019291766722244,0.0019291766722244,Kc,Dormancy temperature,S5,irr
+kc_scale,pwp_raw,-0.001890683383381,0.001890683383381,Kc,PWP,S5,irr
+p_depletion,climate_window_u,0.0018589719023791,0.0018589719023791,p,Climate window,S5,irr
+kc_scale,AWC_raw,-0.0017514596655568,0.0017514596655568,Kc,AWC,S5,irr
+kc_scale,theta_s_raw,-0.0016710370673856,0.0016710370673856,Kc,theta_s,S5,irr
+AWC_raw,theta_r_raw,0.0016634877263547,0.0016634877263547,AWC,theta_r,S5,irr
+p_depletion,n,0.0016614285084498,0.0016614285084498,p,n,S5,irr
+p_depletion,K_sat,0.0016614285084498,0.0016614285084498,p,Ksat,S5,irr
+p_depletion,wp_scale,0.0016614285084498,0.0016614285084498,p,WP,S5,irr
+p_depletion,Kmitsch_scale,0.0016614285084498,0.0016614285084498,p,Km,S5,irr
+p_depletion,theta_r_raw,0.0016610077514696,0.0016610077514696,p,theta_r,S5,irr
+AWC_raw,root_depth_mm,0.0016571303545469,0.0016571303545469,AWC,RD,S5,irr
+AWC_raw,pwp_raw,0.0015880509236644,0.0015880509236644,AWC,PWP,S5,irr
+AWC_raw,theta_s_raw,0.0015852669719156,0.0015852669719156,AWC,theta_s,S5,irr
+AWC_raw,K_sat,0.0015665667172223,0.0015665667172223,AWC,Ksat,S5,irr
+AWC_raw,n,0.0015665667172223,0.0015665667172223,AWC,n,S5,irr
+climate_window_u,theta_s_raw,-0.001347132411034,0.001347132411034,Climate window,theta_s,S5,irr
+theta_r_raw,pwp_raw,0.0012845981674064,0.0012845981674064,theta_r,PWP,S5,irr
+climate_window_u,theta_r_raw,-0.0012816790956083,0.0012816790956083,Climate window,theta_r,S5,irr
+theta_r_raw,n,0.0012814654682113,0.0012814654682113,theta_r,n,S5,irr
+climate_window_u,AWC_raw,-0.0012172671597204,0.0012172671597204,Climate window,AWC,S5,irr
+climate_window_u,K_sat,-0.0011789956909664,0.0011789956909664,Climate window,Ksat,S5,irr
+climate_window_u,n,-0.0011789956909664,0.0011789956909664,Climate window,n,S5,irr
+climate_window_u,pwp_raw,-0.001123405887198,0.001123405887198,Climate window,PWP,S5,irr
+p_depletion,theta_s_raw,0.0011167540867184,0.0011167540867184,p,theta_s,S5,irr
+kc_scale,theta_r_raw,-0.0008907321812948,0.0008907321812948,Kc,theta_r,S5,irr
+kc_scale,climate_window_u,-0.0008760355307726,0.0008760355307726,Kc,Climate window,S5,irr
+theta_s_raw,n,-0.0004684164098425,0.0004684164098425,theta_s,n,S5,irr
+theta_s_raw,pwp_raw,-0.0004404301710799,0.0004404301710799,theta_s,PWP,S5,irr
+theta_s_raw,theta_r_raw,-0.0003981880691388,0.0003981880691388,theta_s,theta_r,S5,irr
+root_depth_mm,theta_r_raw,-0.0003817021580518,0.0003817021580518,RD,theta_r,S5,irr
+root_depth_mm,pwp_raw,-0.0003443979041822,0.0003443979041822,RD,PWP,S5,irr
+root_depth_mm,theta_s_raw,-0.0003372388109338,0.0003372388109338,RD,theta_s,S5,irr
+root_depth_mm,n,-0.0003361369272022,0.0003361369272022,RD,n,S5,irr
+root_depth_mm,K_sat,-0.0003361369272022,0.0003361369272022,RD,Ksat,S5,irr
+temperature_dormancy_threshold,p_depletion,5.195421879100604e-05,5.195421879100604e-05,Dormancy temperature,p,S5,irr
+temperature_dormancy_threshold,climate_window_u,4.473865621212533e-05,4.473865621212533e-05,Dormancy temperature,Climate window,S5,irr
+temperature_dormancy_threshold,AWC_raw,4.26748823502297e-05,4.26748823502297e-05,Dormancy temperature,AWC,S5,irr
+temperature_dormancy_threshold,root_depth_mm,4.124130148841672e-05,4.124130148841672e-05,Dormancy temperature,RD,S5,irr
+temperature_dormancy_threshold,theta_r_raw,3.579086761980874e-05,3.579086761980874e-05,Dormancy temperature,theta_r,S5,irr
+temperature_dormancy_threshold,wp_scale,3.537561732280752e-05,3.537561732280752e-05,Dormancy temperature,WP,S5,irr
+temperature_dormancy_threshold,K_sat,3.537561732280752e-05,3.537561732280752e-05,Dormancy temperature,Ksat,S5,irr
+temperature_dormancy_threshold,Kmitsch_scale,3.537561732280752e-05,3.537561732280752e-05,Dormancy temperature,Km,S5,irr
+temperature_dormancy_threshold,n,3.537561732280752e-05,3.537561732280752e-05,Dormancy temperature,n,S5,irr
+temperature_dormancy_threshold,pwp_raw,3.5375617322807055e-05,3.5375617322807055e-05,Dormancy temperature,PWP,S5,irr
+temperature_dormancy_threshold,theta_s_raw,3.520313727172804e-05,3.520313727172804e-05,Dormancy temperature,theta_s,S5,irr
+Kmitsch_scale,AWC_raw,-1.951563910473908e-18,1.951563910473908e-18,Km,AWC,S5,irr
+Kmitsch_scale,theta_s_raw,-1.951563910473908e-18,1.951563910473908e-18,Km,theta_s,S5,irr
+K_sat,theta_s_raw,-1.951563910473908e-18,1.951563910473908e-18,Ksat,theta_s,S5,irr
+wp_scale,AWC_raw,-1.951563910473908e-18,1.951563910473908e-18,WP,AWC,S5,irr
+wp_scale,theta_s_raw,-1.951563910473908e-18,1.951563910473908e-18,WP,theta_s,S5,irr
+wp_scale,root_depth_mm,-1.3010426069826053e-18,1.3010426069826053e-18,WP,RD,S5,irr
+Kmitsch_scale,root_depth_mm,-1.3010426069826053e-18,1.3010426069826053e-18,Km,RD,S5,irr
+Kmitsch_scale,pwp_raw,-4.336808689942019e-19,4.336808689942019e-19,Km,PWP,S5,irr
+n,pwp_raw,-4.336808689942019e-19,4.336808689942019e-19,n,PWP,S5,irr
+K_sat,pwp_raw,-4.336808689942019e-19,4.336808689942019e-19,Ksat,PWP,S5,irr
+wp_scale,pwp_raw,-4.336808689942019e-19,4.336808689942019e-19,WP,PWP,S5,irr
+K_sat,theta_r_raw,1.0842021724855044e-19,1.0842021724855044e-19,Ksat,theta_r,S5,irr
+Kmitsch_scale,theta_r_raw,1.0842021724855044e-19,1.0842021724855044e-19,Km,theta_r,S5,irr
+wp_scale,theta_r_raw,1.0842021724855044e-19,1.0842021724855044e-19,WP,theta_r,S5,irr
+Kmitsch_scale,K_sat,0.0,0.0,Km,Ksat,S5,irr
+Kmitsch_scale,climate_window_u,0.0,0.0,Km,Climate window,S5,irr
+K_sat,n,0.0,0.0,Ksat,n,S5,irr
+Kmitsch_scale,n,0.0,0.0,Km,n,S5,irr
+wp_scale,Kmitsch_scale,0.0,0.0,WP,Km,S5,irr
+wp_scale,n,0.0,0.0,WP,n,S5,irr
+wp_scale,climate_window_u,0.0,0.0,WP,Climate window,S5,irr
+wp_scale,K_sat,0.0,0.0,WP,Ksat,S5,irr
+kc_scale,root_depth_mm,-0.0100964475849193,0.0100964475849193,Kc,RD,S1,yld
+kc_scale,theta_r_raw,-0.009645178432433,0.009645178432433,Kc,theta_r,S1,yld
+kc_scale,theta_s_raw,-0.0090808853140292,0.0090808853140292,Kc,theta_s,S1,yld
+kc_scale,AWC_raw,-0.0089578531557626,0.0089578531557626,Kc,AWC,S1,yld
+p_depletion,Kmitsch_scale,0.0088938525885484,0.0088938525885484,p,Km,S1,yld
+kc_scale,climate_window_u,-0.0088581062095929,0.0088581062095929,Kc,Climate window,S1,yld
+kc_scale,temperature_dormancy_threshold,-0.0085987863117157,0.0085987863117157,Kc,Dormancy temperature,S1,yld
+kc_scale,n,-0.0085407948024559,0.0085407948024559,Kc,n,S1,yld
+kc_scale,K_sat,-0.0085407948024559,0.0085407948024559,Kc,Ksat,S1,yld
+kc_scale,pwp_raw,-0.0084980794925841,0.0084980794925841,Kc,PWP,S1,yld
+wp_scale,climate_window_u,-0.0077002505531405,0.0077002505531405,WP,Climate window,S1,yld
+wp_scale,AWC_raw,-0.0073325962244611,0.0073325962244611,WP,AWC,S1,yld
+AWC_raw,theta_s_raw,-0.0072664946860806,0.0072664946860806,AWC,theta_s,S1,yld
+AWC_raw,K_sat,-0.0072094963176329,0.0072094963176329,AWC,Ksat,S1,yld
+AWC_raw,n,-0.0072094963176329,0.0072094963176329,AWC,n,S1,yld
+AWC_raw,pwp_raw,-0.0071323415798856,0.0071323415798856,AWC,PWP,S1,yld
+AWC_raw,theta_r_raw,-0.0071015019553849,0.0071015019553849,AWC,theta_r,S1,yld
+AWC_raw,root_depth_mm,-0.0068387617872203,0.0068387617872203,AWC,RD,S1,yld
+wp_scale,pwp_raw,-0.0066542923819829,0.0066542923819829,WP,PWP,S1,yld
+kc_scale,Kmitsch_scale,-0.0062878779401555,0.0062878779401555,Kc,Km,S1,yld
+wp_scale,theta_s_raw,-0.006000802354987,0.006000802354987,WP,theta_s,S1,yld
+wp_scale,theta_r_raw,-0.005856055649467,0.005856055649467,WP,theta_r,S1,yld
+p_depletion,wp_scale,0.005719659948611,0.005719659948611,p,WP,S1,yld
+wp_scale,n,-0.0054993268885979,0.0054993268885979,WP,n,S1,yld
+wp_scale,K_sat,-0.0054993268885979,0.0054993268885979,WP,Ksat,S1,yld
+kc_scale,wp_scale,-0.005189914108922,0.005189914108922,Kc,WP,S1,yld
+p_depletion,climate_window_u,0.0048002666181516,0.0048002666181516,p,Climate window,S1,yld
+p_depletion,theta_s_raw,0.0039988074323815,0.0039988074323815,p,theta_s,S1,yld
+wp_scale,root_depth_mm,-0.0039576864788419,0.0039576864788419,WP,RD,S1,yld
+p_depletion,n,0.0036214054988883,0.0036214054988883,p,n,S1,yld
+p_depletion,K_sat,0.0036214054988883,0.0036214054988883,p,Ksat,S1,yld
+p_depletion,theta_r_raw,0.0035471434480937,0.0035471434480937,p,theta_r,S1,yld
+p_depletion,AWC_raw,0.0032593215240681,0.0032593215240681,p,AWC,S1,yld
+p_depletion,root_depth_mm,0.0031372278712147,0.0031372278712147,p,RD,S1,yld
+p_depletion,pwp_raw,0.0030726762683986,0.0030726762683986,p,PWP,S1,yld
+Kmitsch_scale,AWC_raw,-0.0024836070671631,0.0024836070671631,Km,AWC,S1,yld
+root_depth_mm,n,-0.002382953599138,0.002382953599138,RD,n,S1,yld
+root_depth_mm,K_sat,-0.002382953599138,0.002382953599138,RD,Ksat,S1,yld
+root_depth_mm,pwp_raw,-0.0023739081327484,0.0023739081327484,RD,PWP,S1,yld
+root_depth_mm,theta_s_raw,-0.0023620612255371,0.0023620612255371,RD,theta_s,S1,yld
+root_depth_mm,theta_r_raw,-0.0023523328521072,0.0023523328521072,RD,theta_r,S1,yld
+climate_window_u,root_depth_mm,-0.002086896366368,0.002086896366368,Climate window,RD,S1,yld
+Kmitsch_scale,root_depth_mm,-0.0019692038502382,0.0019692038502382,Km,RD,S1,yld
+climate_window_u,theta_s_raw,-0.0019310461294577,0.0019310461294577,Climate window,theta_s,S1,yld
+climate_window_u,AWC_raw,-0.0018756205995215,0.0018756205995215,Climate window,AWC,S1,yld
+climate_window_u,pwp_raw,-0.0018333366049768,0.0018333366049768,Climate window,PWP,S1,yld
+climate_window_u,K_sat,-0.0017961119989887,0.0017961119989887,Climate window,Ksat,S1,yld
+climate_window_u,n,-0.0017961119989887,0.0017961119989887,Climate window,n,S1,yld
+climate_window_u,theta_r_raw,-0.0016691947576663,0.0016691947576663,Climate window,theta_r,S1,yld
+theta_r_raw,pwp_raw,-0.0015396859119345,0.0015396859119345,theta_r,PWP,S1,yld
+theta_r_raw,n,-0.0015376075007364,0.0015376075007364,theta_r,n,S1,yld
+Kmitsch_scale,climate_window_u,-0.0014678945252851,0.0014678945252851,Km,Climate window,S1,yld
+theta_s_raw,n,-0.0013184804234694,0.0013184804234694,theta_s,n,S1,yld
+theta_s_raw,theta_r_raw,-0.0012628132845261,0.0012628132845261,theta_s,theta_r,S1,yld
+theta_s_raw,pwp_raw,-0.0012183460098828,0.0012183460098828,theta_s,PWP,S1,yld
+wp_scale,Kmitsch_scale,0.0008875444822082,0.0008875444822082,WP,Km,S1,yld
+Kmitsch_scale,K_sat,0.0007064767542928,0.0007064767542928,Km,Ksat,S1,yld
+Kmitsch_scale,n,0.0007064767542928,0.0007064767542928,Km,n,S1,yld
+Kmitsch_scale,pwp_raw,0.0006544277061623,0.0006544277061623,Km,PWP,S1,yld
+Kmitsch_scale,theta_r_raw,0.0005684143386497,0.0005684143386497,Km,theta_r,S1,yld
+kc_scale,p_depletion,-0.0003290137287352,0.0003290137287352,Kc,p,S1,yld
+Kmitsch_scale,theta_s_raw,-8.802205910368526e-05,8.802205910368526e-05,Km,theta_s,S1,yld
+temperature_dormancy_threshold,p_depletion,4.592894500818345e-06,4.592894500818345e-06,Dormancy temperature,p,S1,yld
+temperature_dormancy_threshold,climate_window_u,4.139503863357513e-06,4.139503863357513e-06,Dormancy temperature,Climate window,S1,yld
+temperature_dormancy_threshold,AWC_raw,2.1400258678446263e-06,2.1400258678446263e-06,Dormancy temperature,AWC,S1,yld
+temperature_dormancy_threshold,n,2.1079123613837127e-06,2.1079123613837127e-06,Dormancy temperature,n,S1,yld
+temperature_dormancy_threshold,K_sat,2.1079123613837127e-06,2.1079123613837127e-06,Dormancy temperature,Ksat,S1,yld
+temperature_dormancy_threshold,pwp_raw,2.1066866168857265e-06,2.1066866168857265e-06,Dormancy temperature,PWP,S1,yld
+temperature_dormancy_threshold,theta_s_raw,1.994821653569681e-06,1.994821653569681e-06,Dormancy temperature,theta_s,S1,yld
+temperature_dormancy_threshold,theta_r_raw,1.9443058003752907e-06,1.9443058003752907e-06,Dormancy temperature,theta_r,S1,yld
+temperature_dormancy_threshold,root_depth_mm,1.7920690786529805e-06,1.7920690786529805e-06,Dormancy temperature,RD,S1,yld
+temperature_dormancy_threshold,Kmitsch_scale,1.6908044740138184e-06,1.6908044740138184e-06,Dormancy temperature,Km,S1,yld
+temperature_dormancy_threshold,wp_scale,1.3895632371418998e-06,1.3895632371418998e-06,Dormancy temperature,WP,S1,yld
+K_sat,theta_s_raw,-1.843143693225357e-18,1.843143693225357e-18,Ksat,theta_s,S1,yld
+n,pwp_raw,-2.1684043449710093e-19,2.1684043449710093e-19,n,PWP,S1,yld
+K_sat,theta_r_raw,2.1684043449710093e-19,2.1684043449710093e-19,Ksat,theta_r,S1,yld
+K_sat,pwp_raw,-2.1684043449710093e-19,2.1684043449710093e-19,Ksat,PWP,S1,yld
+K_sat,n,0.0,0.0,Ksat,n,S1,yld
+AWC_raw,theta_s_raw,-0.0101851587396152,0.0101851587396152,AWC,theta_s,S2,yld
+AWC_raw,K_sat,-0.0100938998748769,0.0100938998748769,AWC,Ksat,S2,yld
+AWC_raw,n,-0.0100938998748769,0.0100938998748769,AWC,n,S2,yld
+AWC_raw,pwp_raw,-0.0099308812844644,0.0099308812844644,AWC,PWP,S2,yld
+AWC_raw,theta_r_raw,-0.0098066440213845,0.0098066440213845,AWC,theta_r,S2,yld
+AWC_raw,root_depth_mm,-0.0093310963400697,0.0093310963400697,AWC,RD,S2,yld
+wp_scale,AWC_raw,-0.0090578703151508,0.0090578703151508,WP,AWC,S2,yld
+p_depletion,Kmitsch_scale,0.008079087277386,0.008079087277386,p,Km,S2,yld
+kc_scale,root_depth_mm,-0.0080721765332279,0.0080721765332279,Kc,RD,S2,yld
+wp_scale,pwp_raw,-0.0072456854217797,0.0072456854217797,WP,PWP,S2,yld
+kc_scale,theta_r_raw,-0.0069008082508456,0.0069008082508456,Kc,theta_r,S2,yld
+wp_scale,climate_window_u,-0.0068658464476033,0.0068658464476033,WP,Climate window,S2,yld
+wp_scale,theta_s_raw,-0.0065341806254311,0.0065341806254311,WP,theta_s,S2,yld
+p_depletion,wp_scale,0.0064967376079302,0.0064967376079302,p,WP,S2,yld
+p_depletion,climate_window_u,0.0064267165735942,0.0064267165735942,p,Climate window,S2,yld
+kc_scale,theta_s_raw,-0.0061688171240169,0.0061688171240169,Kc,theta_s,S2,yld
+wp_scale,theta_r_raw,-0.0060008233651502,0.0060008233651502,WP,theta_r,S2,yld
+kc_scale,AWC_raw,-0.0058205567136923,0.0058205567136923,Kc,AWC,S2,yld
+wp_scale,K_sat,-0.0056635820465509,0.0056635820465509,WP,Ksat,S2,yld
+wp_scale,n,-0.0056635820465509,0.0056635820465509,WP,n,S2,yld
+p_depletion,theta_s_raw,0.0053720629328362,0.0053720629328362,p,theta_s,S2,yld
+kc_scale,pwp_raw,-0.0053524133855307,0.0053524133855307,Kc,PWP,S2,yld
+kc_scale,temperature_dormancy_threshold,-0.0053097567307537,0.0053097567307537,Kc,Dormancy temperature,S2,yld
+kc_scale,K_sat,-0.0053010441017153,0.0053010441017153,Kc,Ksat,S2,yld
+kc_scale,n,-0.0053010441017153,0.0053010441017153,Kc,n,S2,yld
+kc_scale,climate_window_u,-0.0049511053077182,0.0049511053077182,Kc,Climate window,S2,yld
+p_depletion,K_sat,0.0046575216630249,0.0046575216630249,p,Ksat,S2,yld
+p_depletion,n,0.0046575216630249,0.0046575216630249,p,n,S2,yld
+p_depletion,theta_r_raw,0.0046356193647711,0.0046356193647711,p,theta_r,S2,yld
+p_depletion,root_depth_mm,0.0046279951853837,0.0046279951853837,p,RD,S2,yld
+p_depletion,AWC_raw,0.0045272652043242,0.0045272652043242,p,AWC,S2,yld
+p_depletion,pwp_raw,0.0041081383031559,0.0041081383031559,p,PWP,S2,yld
+wp_scale,root_depth_mm,-0.0034363477858054,0.0034363477858054,WP,RD,S2,yld
+Kmitsch_scale,n,0.0033793433099413,0.0033793433099413,Km,n,S2,yld
+Kmitsch_scale,K_sat,0.0033793433099413,0.0033793433099413,Km,Ksat,S2,yld
+Kmitsch_scale,pwp_raw,0.003242761308304,0.003242761308304,Km,PWP,S2,yld
+kc_scale,p_depletion,0.0031357233428176,0.0031357233428176,Kc,p,S2,yld
+Kmitsch_scale,theta_r_raw,0.0031136807305091,0.0031136807305091,Km,theta_r,S2,yld
+theta_r_raw,n,-0.0024605942029787,0.0024605942029787,theta_r,n,S2,yld
+theta_r_raw,pwp_raw,-0.0024578489464067,0.0024578489464067,theta_r,PWP,S2,yld
+Kmitsch_scale,theta_s_raw,0.0023902072245805,0.0023902072245805,Km,theta_s,S2,yld
+Kmitsch_scale,climate_window_u,0.0023167427919809,0.0023167427919809,Km,Climate window,S2,yld
+kc_scale,Kmitsch_scale,-0.0021509608161974,0.0021509608161974,Kc,Km,S2,yld
+climate_window_u,AWC_raw,-0.0016929151396501,0.0016929151396501,Climate window,AWC,S2,yld
+climate_window_u,n,-0.001642703953048,0.001642703953048,Climate window,n,S2,yld
+climate_window_u,K_sat,-0.001642703953048,0.001642703953048,Climate window,Ksat,S2,yld
+climate_window_u,theta_s_raw,-0.0016346909444671,0.0016346909444671,Climate window,theta_s,S2,yld
+climate_window_u,pwp_raw,-0.0016105867147268,0.0016105867147268,Climate window,PWP,S2,yld
+root_depth_mm,K_sat,-0.0015032310048957,0.0015032310048957,RD,Ksat,S2,yld
+root_depth_mm,n,-0.0015032310048957,0.0015032310048957,RD,n,S2,yld
+root_depth_mm,theta_r_raw,-0.0014274367597985,0.0014274367597985,RD,theta_r,S2,yld
+root_depth_mm,pwp_raw,-0.0014224291855954,0.0014224291855954,RD,PWP,S2,yld
+climate_window_u,theta_r_raw,-0.0013943292301074,0.0013943292301074,Climate window,theta_r,S2,yld
+root_depth_mm,theta_s_raw,-0.0013068899870304,0.0013068899870304,RD,theta_s,S2,yld
+climate_window_u,root_depth_mm,-0.0012202265225511,0.0012202265225511,Climate window,RD,S2,yld
+wp_scale,Kmitsch_scale,-0.0011277718164552,0.0011277718164552,WP,Km,S2,yld
+theta_s_raw,n,-0.0010384111279973,0.0010384111279973,theta_s,n,S2,yld
+Kmitsch_scale,AWC_raw,-0.0010132574881702,0.0010132574881702,Km,AWC,S2,yld
+theta_s_raw,theta_r_raw,-0.00092843745476,0.00092843745476,theta_s,theta_r,S2,yld
+theta_s_raw,pwp_raw,-0.0008242163136162,0.0008242163136162,theta_s,PWP,S2,yld
+kc_scale,wp_scale,-0.0006411318116416,0.0006411318116416,Kc,WP,S2,yld
+Kmitsch_scale,root_depth_mm,0.0001158972159722,0.0001158972159722,Km,RD,S2,yld
+temperature_dormancy_threshold,wp_scale,-3.6440163672657455e-06,3.6440163672657455e-06,Dormancy temperature,WP,S2,yld
+temperature_dormancy_threshold,theta_r_raw,-3.636310341755336e-06,3.636310341755336e-06,Dormancy temperature,theta_r,S2,yld
+temperature_dormancy_threshold,AWC_raw,-3.519374709369874e-06,3.519374709369874e-06,Dormancy temperature,AWC,S2,yld
+temperature_dormancy_threshold,theta_s_raw,-3.42784625853511e-06,3.42784625853511e-06,Dormancy temperature,theta_s,S2,yld
+temperature_dormancy_threshold,K_sat,-3.081159571394018e-06,3.081159571394018e-06,Dormancy temperature,Ksat,S2,yld
+temperature_dormancy_threshold,n,-3.081159571394018e-06,3.081159571394018e-06,Dormancy temperature,n,S2,yld
+temperature_dormancy_threshold,pwp_raw,-3.058082001827648e-06,3.058082001827648e-06,Dormancy temperature,PWP,S2,yld
+temperature_dormancy_threshold,root_depth_mm,-2.475144971951157e-06,2.475144971951157e-06,Dormancy temperature,RD,S2,yld
+temperature_dormancy_threshold,climate_window_u,-1.970827873261708e-06,1.970827873261708e-06,Dormancy temperature,Climate window,S2,yld
+temperature_dormancy_threshold,Kmitsch_scale,-1.8083973616911384e-06,1.8083973616911384e-06,Dormancy temperature,Km,S2,yld
+temperature_dormancy_threshold,p_depletion,1.4543055169985442e-06,1.4543055169985442e-06,Dormancy temperature,p,S2,yld
+K_sat,pwp_raw,-8.673617379884035e-19,8.673617379884035e-19,Ksat,PWP,S2,yld
+n,pwp_raw,-8.673617379884035e-19,8.673617379884035e-19,n,PWP,S2,yld
+K_sat,theta_s_raw,-6.505213034913028e-19,6.505213034913028e-19,Ksat,theta_s,S2,yld
+K_sat,theta_r_raw,-2.1684043449710093e-19,2.1684043449710093e-19,Ksat,theta_r,S2,yld
+K_sat,n,0.0,0.0,Ksat,n,S2,yld
+kc_scale,wp_scale,0.0067696637672197,0.0067696637672197,Kc,WP,S3,yld
+Kmitsch_scale,theta_s_raw,0.0040358478911928,0.0040358478911928,Km,theta_s,S3,yld
+Kmitsch_scale,pwp_raw,0.0040273850943279,0.0040273850943279,Km,PWP,S3,yld
+wp_scale,climate_window_u,-0.0040111378350872,0.0040111378350872,WP,Climate window,S3,yld
+Kmitsch_scale,theta_r_raw,0.0039356444735706,0.0039356444735706,Km,theta_r,S3,yld
+Kmitsch_scale,K_sat,0.0039286898496708,0.0039286898496708,Km,Ksat,S3,yld
+Kmitsch_scale,n,0.0039286898496708,0.0039286898496708,Km,n,S3,yld
+Kmitsch_scale,AWC_raw,0.0038579870342853,0.0038579870342853,Km,AWC,S3,yld
+wp_scale,K_sat,-0.003762258396292,0.003762258396292,WP,Ksat,S3,yld
+wp_scale,n,-0.003762258396292,0.003762258396292,WP,n,S3,yld
+wp_scale,theta_s_raw,-0.0037471945061999,0.0037471945061999,WP,theta_s,S3,yld
+Kmitsch_scale,root_depth_mm,0.0037220056757353,0.0037220056757353,Km,RD,S3,yld
+wp_scale,theta_r_raw,-0.00371910542263,0.00371910542263,WP,theta_r,S3,yld
+wp_scale,root_depth_mm,-0.003714008032567,0.003714008032567,WP,RD,S3,yld
+wp_scale,pwp_raw,-0.0036254444023144,0.0036254444023144,WP,PWP,S3,yld
+Kmitsch_scale,climate_window_u,0.0033572055228108,0.0033572055228108,Km,Climate window,S3,yld
+wp_scale,AWC_raw,-0.0030485983780224,0.0030485983780224,WP,AWC,S3,yld
+kc_scale,pwp_raw,-0.0024992297899866,0.0024992297899866,Kc,PWP,S3,yld
+kc_scale,theta_s_raw,-0.0024989025001132,0.0024989025001132,Kc,theta_s,S3,yld
+kc_scale,AWC_raw,-0.0024295588625256,0.0024295588625256,Kc,AWC,S3,yld
+kc_scale,temperature_dormancy_threshold,-0.0023376343766777,0.0023376343766777,Kc,Dormancy temperature,S3,yld
+kc_scale,n,-0.0023338156971931,0.0023338156971931,Kc,n,S3,yld
+kc_scale,K_sat,-0.0023338156971931,0.0023338156971931,Kc,Ksat,S3,yld
+kc_scale,theta_r_raw,-0.0022058632389961,0.0022058632389961,Kc,theta_r,S3,yld
+wp_scale,Kmitsch_scale,-0.0021178818657286,0.0021178818657286,WP,Km,S3,yld
+p_depletion,Kmitsch_scale,0.002089495623442,0.002089495623442,p,Km,S3,yld
+kc_scale,climate_window_u,-0.0017031704096802,0.0017031704096802,Kc,Climate window,S3,yld
+kc_scale,root_depth_mm,-0.0016618034987404,0.0016618034987404,Kc,RD,S3,yld
+kc_scale,Kmitsch_scale,0.0015185613420725,0.0015185613420725,Kc,Km,S3,yld
+p_depletion,wp_scale,0.0013366741742028,0.0013366741742028,p,WP,S3,yld
+AWC_raw,theta_r_raw,0.0012969924131699,0.0012969924131699,AWC,theta_r,S3,yld
+AWC_raw,pwp_raw,0.001289863613906,0.001289863613906,AWC,PWP,S3,yld
+AWC_raw,theta_s_raw,0.0012875398162222,0.0012875398162222,AWC,theta_s,S3,yld
+AWC_raw,K_sat,0.0012854442149619,0.0012854442149619,AWC,Ksat,S3,yld
+AWC_raw,n,0.0012854442149619,0.0012854442149619,AWC,n,S3,yld
+AWC_raw,root_depth_mm,0.0012724446890687,0.0012724446890687,AWC,RD,S3,yld
+p_depletion,climate_window_u,0.0010251585729719,0.0010251585729719,p,Climate window,S3,yld
+root_depth_mm,K_sat,-0.0007330660315974,0.0007330660315974,RD,Ksat,S3,yld
+root_depth_mm,n,-0.0007330660315974,0.0007330660315974,RD,n,S3,yld
+root_depth_mm,theta_r_raw,-0.0007321925567406,0.0007321925567406,RD,theta_r,S3,yld
+root_depth_mm,theta_s_raw,-0.0007319310337567,0.0007319310337567,RD,theta_s,S3,yld
+root_depth_mm,pwp_raw,-0.0007253566742517,0.0007253566742517,RD,PWP,S3,yld
+kc_scale,p_depletion,0.0003811454000458,0.0003811454000458,Kc,p,S3,yld
+p_depletion,pwp_raw,0.0002970801574045,0.0002970801574045,p,PWP,S3,yld
+climate_window_u,root_depth_mm,-0.0002828243175821,0.0002828243175821,Climate window,RD,S3,yld
+climate_window_u,theta_r_raw,-0.0002413671982719,0.0002413671982719,Climate window,theta_r,S3,yld
+climate_window_u,theta_s_raw,-0.0002222560751613,0.0002222560751613,Climate window,theta_s,S3,yld
+climate_window_u,pwp_raw,-0.0002137067036798,0.0002137067036798,Climate window,PWP,S3,yld
+theta_s_raw,n,-0.0002065123507112,0.0002065123507112,theta_s,n,S3,yld
+climate_window_u,AWC_raw,-0.0002031334405707,0.0002031334405707,Climate window,AWC,S3,yld
+p_depletion,theta_s_raw,0.0001972665751236,0.0001972665751236,p,theta_s,S3,yld
+climate_window_u,K_sat,-0.0001955670991158,0.0001955670991158,Climate window,Ksat,S3,yld
+climate_window_u,n,-0.0001955670991158,0.0001955670991158,Climate window,n,S3,yld
+theta_s_raw,pwp_raw,-0.0001935413932813,0.0001935413932813,theta_s,PWP,S3,yld
+theta_s_raw,theta_r_raw,-0.0001906263106912,0.0001906263106912,theta_s,theta_r,S3,yld
+p_depletion,root_depth_mm,0.0001759580615982,0.0001759580615982,p,RD,S3,yld
+p_depletion,AWC_raw,0.0001716110353427,0.0001716110353427,p,AWC,S3,yld
+p_depletion,theta_r_raw,0.0001694435128544,0.0001694435128544,p,theta_r,S3,yld
+p_depletion,K_sat,0.0001661706524851,0.0001661706524851,p,Ksat,S3,yld
+p_depletion,n,0.0001661706524851,0.0001661706524851,p,n,S3,yld
+theta_r_raw,pwp_raw,5.599538300919509e-05,5.599538300919509e-05,theta_r,PWP,S3,yld
+theta_r_raw,n,5.450106519515584e-05,5.450106519515584e-05,theta_r,n,S3,yld
+temperature_dormancy_threshold,Kmitsch_scale,1.396939206070591e-05,1.396939206070591e-05,Dormancy temperature,Km,S3,yld
+temperature_dormancy_threshold,climate_window_u,1.1336757853896637e-05,1.1336757853896637e-05,Dormancy temperature,Climate window,S3,yld
+temperature_dormancy_threshold,theta_r_raw,7.885626151441497e-06,7.885626151441497e-06,Dormancy temperature,theta_r,S3,yld
+temperature_dormancy_threshold,theta_s_raw,7.877779490258526e-06,7.877779490258526e-06,Dormancy temperature,theta_s,S3,yld
+temperature_dormancy_threshold,root_depth_mm,7.775305488425801e-06,7.775305488425801e-06,Dormancy temperature,RD,S3,yld
+temperature_dormancy_threshold,n,7.678554424756978e-06,7.678554424756978e-06,Dormancy temperature,n,S3,yld
+temperature_dormancy_threshold,K_sat,7.678554424756978e-06,7.678554424756978e-06,Dormancy temperature,Ksat,S3,yld
+temperature_dormancy_threshold,pwp_raw,7.66391855753682e-06,7.66391855753682e-06,Dormancy temperature,PWP,S3,yld
+temperature_dormancy_threshold,AWC_raw,7.179349916651922e-06,7.179349916651922e-06,Dormancy temperature,AWC,S3,yld
+temperature_dormancy_threshold,p_depletion,6.703943235736309e-06,6.703943235736309e-06,Dormancy temperature,p,S3,yld
+temperature_dormancy_threshold,wp_scale,-5.111802661716958e-06,5.111802661716958e-06,Dormancy temperature,WP,S3,yld
+K_sat,theta_s_raw,8.402566836762659e-19,8.402566836762659e-19,Ksat,theta_s,S3,yld
+K_sat,pwp_raw,7.589415207398531e-19,7.589415207398531e-19,Ksat,PWP,S3,yld
+n,pwp_raw,7.589415207398531e-19,7.589415207398531e-19,n,PWP,S3,yld
+K_sat,theta_r_raw,3.9302328752599536e-19,3.9302328752599536e-19,Ksat,theta_r,S3,yld
+K_sat,n,0.0,0.0,Ksat,n,S3,yld
+kc_scale,wp_scale,0.0093958058245534,0.0093958058245534,Kc,WP,S4,yld
+wp_scale,root_depth_mm,-0.005200031014167,0.005200031014167,WP,RD,S4,yld
+Kmitsch_scale,root_depth_mm,0.0043019610250052,0.0043019610250052,Km,RD,S4,yld
+Kmitsch_scale,AWC_raw,0.0042871493022354,0.0042871493022354,Km,AWC,S4,yld
+wp_scale,AWC_raw,-0.0042456854498394,0.0042456854498394,WP,AWC,S4,yld
+Kmitsch_scale,K_sat,0.0040514310395435,0.0040514310395435,Km,Ksat,S4,yld
+Kmitsch_scale,n,0.0040514310395435,0.0040514310395435,Km,n,S4,yld
+Kmitsch_scale,theta_s_raw,0.0040404756774846,0.0040404756774846,Km,theta_s,S4,yld
+Kmitsch_scale,pwp_raw,0.0040346973874899,0.0040346973874899,Km,PWP,S4,yld
+Kmitsch_scale,theta_r_raw,0.0040326267160984,0.0040326267160984,Km,theta_r,S4,yld
+wp_scale,theta_s_raw,-0.0039554141955632,0.0039554141955632,WP,theta_s,S4,yld
+Kmitsch_scale,climate_window_u,0.0037295821918338,0.0037295821918338,Km,Climate window,S4,yld
+wp_scale,theta_r_raw,-0.0036791164767166,0.0036791164767166,WP,theta_r,S4,yld
+wp_scale,K_sat,-0.0036468113994393,0.0036468113994393,WP,Ksat,S4,yld
+wp_scale,n,-0.0036468113994393,0.0036468113994393,WP,n,S4,yld
+wp_scale,climate_window_u,-0.0035917213884044,0.0035917213884044,WP,Climate window,S4,yld
+kc_scale,AWC_raw,-0.0035018223272888,0.0035018223272888,Kc,AWC,S4,yld
+wp_scale,pwp_raw,-0.0034023033593812,0.0034023033593812,WP,PWP,S4,yld
+kc_scale,root_depth_mm,-0.0033888024178624,0.0033888024178624,Kc,RD,S4,yld
+kc_scale,temperature_dormancy_threshold,-0.0033122320739941,0.0033122320739941,Kc,Dormancy temperature,S4,yld
+kc_scale,n,-0.0033034396129203,0.0033034396129203,Kc,n,S4,yld
+kc_scale,K_sat,-0.0033034396129203,0.0033034396129203,Kc,Ksat,S4,yld
+kc_scale,theta_r_raw,-0.0032697414425731,0.0032697414425731,Kc,theta_r,S4,yld
+kc_scale,theta_s_raw,-0.0031959760366339,0.0031959760366339,Kc,theta_s,S4,yld
+kc_scale,pwp_raw,-0.0030986791004772,0.0030986791004772,Kc,PWP,S4,yld
+wp_scale,Kmitsch_scale,-0.0030933255680722,0.0030933255680722,WP,Km,S4,yld
+kc_scale,climate_window_u,-0.0025670259301916,0.0025670259301916,Kc,Climate window,S4,yld
+kc_scale,p_depletion,-0.0023195871759094,0.0023195871759094,Kc,p,S4,yld
+root_depth_mm,theta_r_raw,0.0016123466575717,0.0016123466575717,RD,theta_r,S4,yld
+root_depth_mm,theta_s_raw,0.0016095894237992,0.0016095894237992,RD,theta_s,S4,yld
+root_depth_mm,pwp_raw,0.0015997942535762,0.0015997942535762,RD,PWP,S4,yld
+root_depth_mm,K_sat,0.0015986054755209,0.0015986054755209,RD,Ksat,S4,yld
+root_depth_mm,n,0.0015986054755209,0.0015986054755209,RD,n,S4,yld
+p_depletion,Kmitsch_scale,0.0010282861275327,0.0010282861275327,p,Km,S4,yld
+climate_window_u,AWC_raw,0.0007825956945669,0.0007825956945669,Climate window,AWC,S4,yld
+climate_window_u,pwp_raw,0.0007162208431239,0.0007162208431239,Climate window,PWP,S4,yld
+climate_window_u,theta_s_raw,0.0006787832494852,0.0006787832494852,Climate window,theta_s,S4,yld
+climate_window_u,theta_r_raw,0.0006557300784115,0.0006557300784115,Climate window,theta_r,S4,yld
+climate_window_u,K_sat,0.0006187617391394,0.0006187617391394,Climate window,Ksat,S4,yld
+climate_window_u,n,0.0006187617391394,0.0006187617391394,Climate window,n,S4,yld
+kc_scale,Kmitsch_scale,0.0005690122499782,0.0005690122499782,Kc,Km,S4,yld
+p_depletion,theta_s_raw,-0.0004820991057581,0.0004820991057581,p,theta_s,S4,yld
+theta_r_raw,pwp_raw,0.0004361380662993,0.0004361380662993,theta_r,PWP,S4,yld
+theta_r_raw,n,0.0004359478710069,0.0004359478710069,theta_r,n,S4,yld
+p_depletion,pwp_raw,-0.000433184253378,0.000433184253378,p,PWP,S4,yld
+p_depletion,theta_r_raw,-0.0004078961702441,0.0004078961702441,p,theta_r,S4,yld
+p_depletion,K_sat,-0.0004009577154525,0.0004009577154525,p,Ksat,S4,yld
+p_depletion,n,-0.0004009577154525,0.0004009577154525,p,n,S4,yld
+climate_window_u,root_depth_mm,0.0003950029191902,0.0003950029191902,Climate window,RD,S4,yld
+p_depletion,AWC_raw,-0.0003595315170488,0.0003595315170488,p,AWC,S4,yld
+p_depletion,wp_scale,-0.0002797207686446,0.0002797207686446,p,WP,S4,yld
+p_depletion,root_depth_mm,-0.0002506879931272,0.0002506879931272,p,RD,S4,yld
+AWC_raw,root_depth_mm,-0.0002288297542151,0.0002288297542151,AWC,RD,S4,yld
+AWC_raw,theta_r_raw,-0.0002114746169369,0.0002114746169369,AWC,theta_r,S4,yld
+AWC_raw,pwp_raw,-0.0002091972539596,0.0002091972539596,AWC,PWP,S4,yld
+AWC_raw,K_sat,-0.00020836411214,0.00020836411214,AWC,Ksat,S4,yld
+AWC_raw,n,-0.00020836411214,0.00020836411214,AWC,n,S4,yld
+AWC_raw,theta_s_raw,-0.0002074633770377,0.0002074633770377,AWC,theta_s,S4,yld
+p_depletion,climate_window_u,-0.0001591663063536,0.0001591663063536,p,Climate window,S4,yld
+theta_s_raw,n,-2.424960710958092e-05,2.424960710958092e-05,theta_s,n,S4,yld
+theta_s_raw,pwp_raw,-1.9886589916187817e-05,1.9886589916187817e-05,theta_s,PWP,S4,yld
+theta_s_raw,theta_r_raw,-1.2975081994064887e-05,1.2975081994064887e-05,theta_s,theta_r,S4,yld
+temperature_dormancy_threshold,wp_scale,-6.496030559299815e-06,6.496030559299815e-06,Dormancy temperature,WP,S4,yld
+temperature_dormancy_threshold,climate_window_u,2.6864678518562224e-06,2.6864678518562224e-06,Dormancy temperature,Climate window,S4,yld
+temperature_dormancy_threshold,AWC_raw,1.7899064584584031e-06,1.7899064584584031e-06,Dormancy temperature,AWC,S4,yld
+temperature_dormancy_threshold,Kmitsch_scale,1.5622816933935288e-06,1.5622816933935288e-06,Dormancy temperature,Km,S4,yld
+temperature_dormancy_threshold,theta_r_raw,1.1151154312338991e-06,1.1151154312338991e-06,Dormancy temperature,theta_r,S4,yld
+temperature_dormancy_threshold,theta_s_raw,1.0755773606205649e-06,1.0755773606205649e-06,Dormancy temperature,theta_s,S4,yld
+temperature_dormancy_threshold,K_sat,1.0214309298499492e-06,1.0214309298499492e-06,Dormancy temperature,Ksat,S4,yld
+temperature_dormancy_threshold,n,1.0214309298499492e-06,1.0214309298499492e-06,Dormancy temperature,n,S4,yld
+temperature_dormancy_threshold,p_depletion,9.879265642637192e-07,9.879265642637192e-07,Dormancy temperature,p,S4,yld
+temperature_dormancy_threshold,pwp_raw,9.85959393822231e-07,9.85959393822231e-07,Dormancy temperature,PWP,S4,yld
+temperature_dormancy_threshold,root_depth_mm,2.990685548426753e-07,2.990685548426753e-07,Dormancy temperature,RD,S4,yld
+n,pwp_raw,1.1655173354219173e-18,1.1655173354219173e-18,n,PWP,S4,yld
+K_sat,pwp_raw,1.1655173354219173e-18,1.1655173354219173e-18,Ksat,PWP,S4,yld
+K_sat,theta_r_raw,-3.2526065174565133e-19,3.2526065174565133e-19,Ksat,theta_r,S4,yld
+K_sat,theta_s_raw,-2.710505431213761e-20,2.710505431213761e-20,Ksat,theta_s,S4,yld
+K_sat,n,0.0,0.0,Ksat,n,S4,yld
+kc_scale,wp_scale,0.0115922861110842,0.0115922861110842,Kc,WP,S5,yld
+Kmitsch_scale,AWC_raw,0.0028554228941867,0.0028554228941867,Km,AWC,S5,yld
+Kmitsch_scale,theta_s_raw,0.0028521749442258,0.0028521749442258,Km,theta_s,S5,yld
+Kmitsch_scale,root_depth_mm,0.0028493197594797,0.0028493197594797,Km,RD,S5,yld
+Kmitsch_scale,pwp_raw,0.0028490045508985,0.0028490045508985,Km,PWP,S5,yld
+Kmitsch_scale,K_sat,0.0028424810681403,0.0028424810681403,Km,Ksat,S5,yld
+Kmitsch_scale,n,0.0028424810681403,0.0028424810681403,Km,n,S5,yld
+Kmitsch_scale,theta_r_raw,0.0028386106966864,0.0028386106966864,Km,theta_r,S5,yld
+Kmitsch_scale,climate_window_u,0.0027242603486221,0.0027242603486221,Km,Climate window,S5,yld
+wp_scale,Kmitsch_scale,-0.0026526350888519,0.0026526350888519,WP,Km,S5,yld
+wp_scale,theta_s_raw,-0.002563907588762,0.002563907588762,WP,theta_s,S5,yld
+wp_scale,pwp_raw,-0.0024989120171238,0.0024989120171238,WP,PWP,S5,yld
+wp_scale,K_sat,-0.002493036538517,0.002493036538517,WP,Ksat,S5,yld
+wp_scale,n,-0.002493036538517,0.002493036538517,WP,n,S5,yld
+wp_scale,climate_window_u,-0.0024770643177475,0.0024770643177475,WP,Climate window,S5,yld
+wp_scale,theta_r_raw,-0.0024757441622481,0.0024757441622481,WP,theta_r,S5,yld
+wp_scale,root_depth_mm,-0.0023525151697834,0.0023525151697834,WP,RD,S5,yld
+wp_scale,AWC_raw,-0.0022897870356683,0.0022897870356683,WP,AWC,S5,yld
+kc_scale,Kmitsch_scale,0.0012489454156423,0.0012489454156423,Kc,Km,S5,yld
+kc_scale,temperature_dormancy_threshold,-0.0010204042971157,0.0010204042971157,Kc,Dormancy temperature,S5,yld
+kc_scale,n,-0.0010089928342529,0.0010089928342529,Kc,n,S5,yld
+kc_scale,K_sat,-0.0010089928342529,0.0010089928342529,Kc,Ksat,S5,yld
+kc_scale,theta_s_raw,-0.001006981847525,0.001006981847525,Kc,theta_s,S5,yld
+kc_scale,pwp_raw,-0.0010000950629306,0.0010000950629306,Kc,PWP,S5,yld
+kc_scale,AWC_raw,-0.000975119346427,0.000975119346427,Kc,AWC,S5,yld
+kc_scale,theta_r_raw,-0.0008855290005976,0.0008855290005976,Kc,theta_r,S5,yld
+kc_scale,root_depth_mm,-0.0008594595938692,0.0008594595938692,Kc,RD,S5,yld
+climate_window_u,AWC_raw,0.0007447740562195,0.0007447740562195,Climate window,AWC,S5,yld
+climate_window_u,pwp_raw,0.0006986154555933,0.0006986154555933,Climate window,PWP,S5,yld
+p_depletion,Kmitsch_scale,0.0006858630693322,0.0006858630693322,p,Km,S5,yld
+climate_window_u,n,0.0006826354203598,0.0006826354203598,Climate window,n,S5,yld
+climate_window_u,K_sat,0.0006826354203598,0.0006826354203598,Climate window,Ksat,S5,yld
+climate_window_u,theta_r_raw,0.0006744135165319,0.0006744135165319,Climate window,theta_r,S5,yld
+climate_window_u,theta_s_raw,0.000659338569857,0.000659338569857,Climate window,theta_s,S5,yld
+kc_scale,climate_window_u,-0.0006148311533555,0.0006148311533555,Kc,Climate window,S5,yld
+kc_scale,p_depletion,-0.0005783861444501,0.0005783861444501,Kc,p,S5,yld
+climate_window_u,root_depth_mm,0.0004795027347385,0.0004795027347385,Climate window,RD,S5,yld
+AWC_raw,root_depth_mm,0.0004230364753893,0.0004230364753893,AWC,RD,S5,yld
+AWC_raw,theta_r_raw,0.0004200375542711,0.0004200375542711,AWC,theta_r,S5,yld
+AWC_raw,theta_s_raw,0.0004191291307616,0.0004191291307616,AWC,theta_s,S5,yld
+AWC_raw,n,0.0004174102678576,0.0004174102678576,AWC,n,S5,yld
+AWC_raw,K_sat,0.0004174102678576,0.0004174102678576,AWC,Ksat,S5,yld
+AWC_raw,pwp_raw,0.0004174023394825,0.0004174023394825,AWC,PWP,S5,yld
+p_depletion,wp_scale,0.000240386355266,0.000240386355266,p,WP,S5,yld
+root_depth_mm,theta_r_raw,-0.0001437917696872,0.0001437917696872,RD,theta_r,S5,yld
+root_depth_mm,n,-0.0001425162742154,0.0001425162742154,RD,n,S5,yld
+root_depth_mm,K_sat,-0.0001425162742154,0.0001425162742154,RD,Ksat,S5,yld
+root_depth_mm,pwp_raw,-0.0001421087439988,0.0001421087439988,RD,PWP,S5,yld
+root_depth_mm,theta_s_raw,-0.0001416683376101,0.0001416683376101,RD,theta_s,S5,yld
+p_depletion,root_depth_mm,0.0001311453014221,0.0001311453014221,p,RD,S5,yld
+theta_s_raw,n,-0.0001218445310625,0.0001218445310625,theta_s,n,S5,yld
+theta_s_raw,pwp_raw,-0.0001214693452081,0.0001214693452081,theta_s,PWP,S5,yld
+theta_s_raw,theta_r_raw,-0.0001203962060217,0.0001203962060217,theta_s,theta_r,S5,yld
+p_depletion,AWC_raw,9.903189308823136e-05,9.903189308823136e-05,p,AWC,S5,yld
+p_depletion,pwp_raw,9.3089477663967e-05,9.3089477663967e-05,p,PWP,S5,yld
+theta_r_raw,pwp_raw,8.985570332526465e-05,8.985570332526465e-05,theta_r,PWP,S5,yld
+theta_r_raw,n,8.974020072103499e-05,8.974020072103499e-05,theta_r,n,S5,yld
+p_depletion,n,6.98084420108578e-05,6.98084420108578e-05,p,n,S5,yld
+p_depletion,K_sat,6.98084420108578e-05,6.98084420108578e-05,p,Ksat,S5,yld
+p_depletion,theta_r_raw,5.376853328520665e-05,5.376853328520665e-05,p,theta_r,S5,yld
+p_depletion,theta_s_raw,4.4634554029889545e-05,4.4634554029889545e-05,p,theta_s,S5,yld
+temperature_dormancy_threshold,wp_scale,1.1933066619340682e-05,1.1933066619340682e-05,Dormancy temperature,WP,S5,yld
+p_depletion,climate_window_u,1.0489164866820527e-05,1.0489164866820527e-05,p,Climate window,S5,yld
+temperature_dormancy_threshold,climate_window_u,4.550835512692752e-06,4.550835512692752e-06,Dormancy temperature,Climate window,S5,yld
+temperature_dormancy_threshold,AWC_raw,2.516428887323484e-06,2.516428887323484e-06,Dormancy temperature,AWC,S5,yld
+temperature_dormancy_threshold,root_depth_mm,2.429689781816111e-06,2.429689781816111e-06,Dormancy temperature,RD,S5,yld
+temperature_dormancy_threshold,theta_r_raw,2.38213233053003e-06,2.38213233053003e-06,Dormancy temperature,theta_r,S5,yld
+temperature_dormancy_threshold,theta_s_raw,2.3744235188819464e-06,2.3744235188819464e-06,Dormancy temperature,theta_s,S5,yld
+temperature_dormancy_threshold,K_sat,2.3082658014174834e-06,2.3082658014174834e-06,Dormancy temperature,Ksat,S5,yld
+temperature_dormancy_threshold,n,2.3082658014174834e-06,2.3082658014174834e-06,Dormancy temperature,n,S5,yld
+temperature_dormancy_threshold,pwp_raw,2.306352624938365e-06,2.306352624938365e-06,Dormancy temperature,PWP,S5,yld
+temperature_dormancy_threshold,Kmitsch_scale,1.968243283824271e-06,1.968243283824271e-06,Dormancy temperature,Km,S5,yld
+temperature_dormancy_threshold,p_depletion,8.414800539580797e-07,8.414800539580797e-07,Dormancy temperature,p,S5,yld
+K_sat,theta_r_raw,1.3688052427629493e-18,1.3688052427629493e-18,Ksat,theta_r,S5,yld
+K_sat,pwp_raw,-1.043544591017298e-18,1.043544591017298e-18,Ksat,PWP,S5,yld
+n,pwp_raw,-1.043544591017298e-18,1.043544591017298e-18,n,PWP,S5,yld
+K_sat,theta_s_raw,-8.809142651444724e-19,8.809142651444724e-19,Ksat,theta_s,S5,yld
+K_sat,n,0.0,0.0,Ksat,n,S5,yld

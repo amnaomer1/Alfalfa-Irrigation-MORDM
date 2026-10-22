@@ -1,0 +1,5 @@
+Box,Dimensions,Density,Coverage,Mass,Restricted parameter ranges
+33,2,0.9100327153762269,0.47767601602747567,0.1834,Crop coefficient scale ≤ 0.936; Water productivity scale ≤ 0.978
+34,3,0.9207807118254879,0.45907269605037204,0.1742,"Crop coefficient scale ≤ 0.936; Depletion fraction, p ≤ 0.647; Water productivity scale ≤ 0.978"
+43,3,0.9863013698630136,0.30910131654264456,0.1095,"Crop coefficient scale ≤ 0.911; Depletion fraction, p ≤ 0.624; Water productivity scale ≤ 0.916"
+44,4,0.992936427850656,0.28162564396107614,0.0991,"Crop coefficient scale ≤ 0.911; Depletion fraction, p ≤ 0.624; Water productivity scale ≤ 0.916; Climate-window start year ≤ 2017.500"

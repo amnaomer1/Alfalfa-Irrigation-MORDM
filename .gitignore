@@ -218,3 +218,28 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Python environments
+alfalfa_env/
+alfalfa_env_mad/
+.venv/
+venv/
+
+# Python temporary files
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# HPC logs
+*.out
+*.err
+*.log
+
+# Large convergence outputs (>100 MiB)
+Pre_Optimization_Convergence_Tests/Output_convergence_Normal_Extreme_VeryExtreme_K10000_10Seeds/convergence_future_outputs_3strategies_seasonalDI_K10000_10seeds.csv
+
+Pre_Optimization_Convergence_Tests/Output_convergence_Normal_Extreme_VeryExtreme_K5000_10Seeds/convergence_future_outputs_3strategies_seasonalDI_K100to5000_10seeds.csv
+
+# Intermediate reevaluation checkpoints
+MORDM_Analysis/Reevaluation_Selected_Strategies_K1000_5000_10000/K1000/K1000_checkpoint.csv
+MORDM_Analysis/Reevaluation_Selected_Strategies_K1000_5000_10000/K5000/K5000_checkpoint.csv
+MORDM_Analysis/Reevaluation_Selected_Strategies_K1000_5000_10000/K10000/K10000_checkpoint.csv

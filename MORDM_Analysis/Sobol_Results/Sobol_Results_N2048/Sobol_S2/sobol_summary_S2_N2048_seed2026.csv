@@ -1,0 +1,2 @@
+strategy_id,strategy_label,N,seed,workers,chunksize,number_of_runs,failures,status,elapsed_hours,mean_irrigation_mm,std_irrigation_mm,mean_yield_mg_ha,std_yield_mg_ha,pareto_irr_mean,pareto_yld_mean
+S2,S2 Low-moderate irrigation,2048,2026,14,1,57344,0,complete,1.4396708159261107,1732.524001073804,400.2341141098002,75.99904684289397,18.508655046577882,1729.6770803995114,76.00833412357271
