@@ -89,7 +89,7 @@ The following table summarizes the scripts and notebooks used in this study, the
 | 17 | `Manuscript_Figures_and_Tables.ipynb` | Reproduces manuscript Figures 2–5 and Table 3 using previously generated analysis outputs. | Optimization, performance, Sobol, and PRIM outputs | — | — |
 | 18 | `Supplementary_Analysis_and_Figures.ipynb` | Reproduces supplementary Figures S13–S21 and Tables S11–S13 using previously generated analysis outputs. | Convergence, optimization, robustness, Sobol, and PRIM outputs | — | — |
 
-**Notes:** Runtimes are measured wall-clock durations obtained from SLURM accounting records on Penn State's Roar HPC system. Allocated CPUs indicate scheduler allocations, not necessarily the number of parallel workers used by each script. A dash indicates that a reference runtime or CPU allocation was not recorded.
+**Notes: Reference runtimes represent wall-clock durations recorded using SLURM on Penn State's Roar HPC system, with 48 allocated CPUs for most computationally intensive analyses. Users can adjust the number of parallel workers in the Python scripts according to their available CPU cores. For example, the Sobol analysis uses 14 parallel workers by default, but this value can be modified. Actual runtimes will vary depending on the number of workers, hardware specifications, and parallelization efficiency. A dash in the reference runtime column indicates a runtime of less than one minute, while a dash in the allocated CPUs column indicates that no specific CPU allocation was recorded.
 
 ## 5. How to Reproduce the Results
 
