@@ -67,7 +67,6 @@ The repository also includes the following documentation and software configurat
 
 - `README.md`: Repository overview, documentation, and reproducibility instructions.
 - `LICENSE`: Software licensing terms.
-- `CITATION.cff`: Citation metadata for the repository.
 - `requirements.txt`: Main Python package dependencies required to run the model and analyses.
 - `requirements_full.txt`: Complete snapshot of the Python environment used in this study.
 
