@@ -3,11 +3,20 @@
 
 ## 1. Overview
 
-This repository contains the Python code and analysis workflows developed to evaluate alfalfa irrigation management strategies under weather and biophysical uncertainty in California's Imperial Valley.
+This repository contains the Python code, supporting data, and analysis workflows developed for the study *Balancing Water Conservation and Crop Production for Robust Alfalfa Irrigation under Uncertainty*, which evaluates alfalfa irrigation management strategies under weather and biophysical uncertainty in California's Imperial Valley.
 
-The study applies a Multi-Objective Robust Decision Making (MORDM) framework to explore tradeoffs between irrigation water use and crop production. A daily, field-scale alfalfa simulation model represents soil water dynamics, irrigation decisions, crop evapotranspiration, and yield responses. The model is coupled with the Non-dominated Sorting Genetic Algorithm II (NSGA-II) to identify irrigation management strategies that balance water conservation and alfalfa production.
+The study integrates a daily, field-scale alfalfa simulation model with a Many-Objective Robust Decision Making (MORDM) framework. The simulation model represents soil-water dynamics, irrigation decisions, crop evapotranspiration, water stress, and yield responses over a five-year production period. The analysis explores 16 management decision variables and 13 uncertain parameters.
 
-The repository includes scripts and Jupyter notebooks used to generate the figures and tables presented in the manuscript and supplementary material.
+The analytical workflow includes:
+
+- **Multi-objective optimization:** Using the Non-dominated Sorting Genetic Algorithm II (NSGA-II) to identify irrigation–yield tradeoffs.
+- **Representative strategy selection:** Using K-means clustering to select five representative irrigation strategies along the Pareto front.
+- **Performance and robustness assessment:** Evaluating representative strategies across 10,000 sampled states of the world (SOWs).
+- **Global sensitivity analysis:** Using Sobol' variance decomposition to identify uncertainties that most strongly influence irrigation and yield performance.
+- **Scenario discovery:** Using the Patient Rule Induction Method (PRIM) to characterize combinations of uncertain conditions associated with strategy vulnerability.
+- **Model evaluation, convergence, and stability analyses:** Assessing model performance and the numerical reliability of the analytical results.
+
+The repository includes Python scripts, Jupyter notebooks, model inputs, and supporting analysis outputs used to reproduce the results, figures, and tables presented in the manuscript and supplementary material.
 
 ## 2. Repository Structure
 
@@ -52,19 +61,43 @@ The main simulation model is defined in `Alfalfa_Irrigation_Model.py`. The `Inpu
 
 The study uses climate, soil, crop, and model evaluation datasets to simulate alfalfa irrigation and production in California's Imperial Valley.
 
-The main input categories include:
+The main data sources and input categories include:
 
-- **Climate data:** Daily meteorological inputs used to calculate reference evapotranspiration and represent weather conditions.
-- **Soil data:** Parameters describing soil water storage, hydraulic properties, and root-zone water availability.
-- **Crop parameters:** Alfalfa growth, evapotranspiration, and yield-response parameters.
-- **Model evaluation data:** Independent datasets used to evaluate simulated evapotranspiration and crop water use.
-- **Uncertainty ranges:** Parameter bounds used to generate alternative states of the world for optimization, robustness evaluation, and sensitivity analysis.
+- **Climate data:** ERA5 meteorological data (2000–2023), obtained from the [Copernicus Climate Data Store](https://cds.climate.copernicus.eu/), used to calculate reference evapotranspiration and represent historical weather variability.
 
-The model uses daily climate inputs derived from ERA5, including the file `Input/ImperialCounty_ERA5_DailyClimate_2000_2023.csv`.
+- **Soil data:** The USDA [Soil Survey Geographic (SSURGO) Database](https://websoilsurvey.nrcs.usda.gov/) and published regional soil-property information, used to characterize soil-water storage, hydraulic properties, and root-zone water availability.
 
-Additional data sources and processing procedures are documented in the accompanying manuscript and supplementary material.
+- **Crop parameters:** Published literature and agricultural management guidelines, used to parameterize alfalfa growth, crop coefficients, water-stress response, water productivity, and yield-response relationships.
 
-## 4. Analysis Workflow and Reproducibility
+- **Model evaluation data:**
+  - [California Irrigation Management Information System (CIMIS)](https://cimis.water.ca.gov/): Reference evapotranspiration and meteorological data.
+  - [OpenET](https://openetdata.org/): Satellite-based estimates of actual crop evapotranspiration.
+  - California Simulation of Evapotranspiration of Applied Water (Cal-SIMETAW): Estimates of potential crop evapotranspiration.
+  - [Imperial County Agricultural Crop and Livestock Reports](https://agcom.imperialcounty.org/crop-reports/): Historical alfalfa yield statistics.
+
+- **Historical irrigation and yield data:** The California Department of Water Resources [Agricultural Land and Water Use Estimates](https://water.ca.gov/Programs/Water-Use-And-Efficiency/Land-And-Water-Use/Agricultural-Land-and-Water-Use-Estimates) and Imperial County Agricultural Crop and Livestock Reports, used to provide historical reference ranges for interpreting the modeled irrigation–yield tradeoffs.
+
+- **Uncertainty ranges and management bounds:** Parameter ranges informed by regional datasets, published literature, agricultural management guidelines, and exploratory modeling assumptions. These ranges define the uncertain conditions and management alternatives evaluated within the MORDM framework.
+
+The model uses daily climate inputs derived from ERA5, including the following file:
+
+`Input/ImperialCounty_ERA5_DailyClimate_2000_2023.csv`
+
+Detailed data sources, references, processing procedures, model parameterization, uncertainty ranges, and management decision bounds are documented in the accompanying manuscript and supplementary material.
+
+## 4. Software Requirements
+
+The analyses use Python 3.11.7. The main Python dependencies are listed in `requirements.txt`, while `requirements_full.txt` provides a complete snapshot of the Python environment, including additional dependencies.
+
+To install the required packages, run:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+Users can adjust the number of parallel workers in the relevant scripts according to their available computational resources.
+
+## 5. Analysis Workflow and Reproducibility
 
 The following table summarizes the scripts and notebooks used in this study, their functions, required dependencies, computational resources, and reference runtimes. Stages represent the logical analysis workflow; some stages can run independently once their required inputs are available.
 
@@ -91,11 +124,11 @@ The following table summarizes the scripts and notebooks used in this study, the
 
 **Notes: Reference runtimes represent wall-clock durations recorded using SLURM on Penn State's Roar HPC system, with 48 allocated CPUs for most computationally intensive analyses. Users can adjust the number of parallel workers in the Python scripts according to their available CPU cores. For example, the Sobol analysis uses 14 parallel workers by default, but this value can be modified. Actual runtimes will vary depending on the number of workers, hardware specifications, and parallelization efficiency. A dash in the reference runtime column indicates a runtime of less than one minute, while a dash in the allocated CPUs column indicates that no specific CPU allocation was recorded.
 
-## 5. How to Reproduce the Results
+## 6. How to Reproduce the Results
 
 The repository supports two approaches to reproducing the study results, depending on whether the required precomputed outputs are available.
 
-### 5.1. Reproducing manuscript figures and tables
+### 6.1. Reproducing manuscript figures and tables
 
 When the required analysis outputs are available, the manuscript and supplementary figures can be regenerated without rerunning the computationally intensive simulations.
 
@@ -107,13 +140,13 @@ The relevant notebooks are:
 - `Baseline_and_Model_Evaluation/Baseline_Scenario.ipynb`
 - `Baseline_and_Model_Evaluation/Model_Evaluation.ipynb`
 
-### 5.2. Reproducing the complete analysis
+### 6.2. Reproducing the complete analysis
 
-To reproduce the analysis from the model inputs, follow the execution order and dependencies described in Section 4.
+To reproduce the analysis from the model inputs, follow the execution order and dependencies described in Section 5.
 
 **Note:** The two large convergence future-level CSV files (K=100–5,000 and K=10,000) are not included in this GitHub repository because they exceed GitHub's regular file-size limit. The smaller convergence summaries are included.
 
-## 6. Expected Outputs
+## 7. Expected Outputs
 
 ### Main Output Files and Directories
 
@@ -133,16 +166,9 @@ The following table summarizes the main output directories generated by the anal
 | `MORDM_Analysis/Reevaluation_Selected_Strategies_K1000_5000_10000/` | Independent uncertainty ensembles, future-level strategy results, summary statistics, and comparisons across K=1,000, 5,000, and 10,000. | Evaluates the stability of irrigation and yield outcomes across uncertainty sample sizes. |
 | `MORDM_Analysis/Sobol_Results/` | Sobol sampling designs, simulation results, first-order and total-order sensitivity indices, second-order interactions, and convergence summaries. | Supports global sensitivity analysis and sensitivity convergence assessment. |
 | `MORDM_Analysis/PRIM_Results/` | PRIM peeling trajectory, candidate-box comparisons, selected vulnerability-region limits, and future-level performance and box membership. | Supports scenario discovery and identification of conditions associated with Strategy S3 failures. |
+## 8. Citation
+## 9. License
+## 10. Acknowledgements
+## 11. Contact
 
-### Software Requirements
-
-The analyses use Python 3.11.7. The main Python dependencies are listed in `requirements.txt`, while `requirements_full.txt` provides a complete snapshot of the Python environment, including additional dependencies.
-
-To install the required packages, run:
-
-```bash
-python -m pip install -r requirements.txt
-```
-
-Users can adjust the number of parallel workers in the relevant scripts according to their available computational resources.
 
