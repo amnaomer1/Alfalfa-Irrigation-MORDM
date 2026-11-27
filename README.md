@@ -63,7 +63,7 @@ The study uses climate, soil, crop, and model evaluation datasets to simulate al
 
 The main data sources and input categories include:
 
-- - **Climate data:** ERA5 meteorological data (2000–2023), originally produced by the European Centre for Medium-Range Weather Forecasts (ECMWF) and distributed through the [Copernicus Climate Data Store](https://cds.climate.copernicus.eu/). The data were accessed through the Water Systems Analysis Group (WSAG) data server at the University of New Hampshire (UNH) and used to calculate reference evapotranspiration and represent historical weather variability.
+- **Climate data:** ERA5 meteorological data (2000–2023), originally produced by the European Centre for Medium-Range Weather Forecasts (ECMWF) and distributed through the [Copernicus Climate Data Store](https://cds.climate.copernicus.eu/). The data were accessed through the Water Systems Analysis Group (WSAG) data server at the University of New Hampshire (UNH) and used to calculate reference evapotranspiration and represent historical weather variability.
 
 - **Soil data:** The USDA [Soil Survey Geographic (SSURGO) Database](https://websoilsurvey.nrcs.usda.gov/) and published regional soil-property information, used to characterize soil-water storage, hydraulic properties, and root-zone water availability.
 
