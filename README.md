@@ -14,7 +14,7 @@ The repository includes scripts and Jupyter notebooks used to generate the figur
 The repository is organized into the following main components:
 
 ```text
-Alfalfa_MORDM_GitHub/
+Alfalfa-Irrigation-MORDM/
 │
 ├── Alfalfa_Irrigation_Model.py
 │
