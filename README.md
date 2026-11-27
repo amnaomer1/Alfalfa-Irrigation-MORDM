@@ -29,7 +29,6 @@ Alfalfa-Irrigation-MORDM/
 │
 ├── README.md
 ├── LICENSE
-├── CITATION.cff
 ├── requirements.txt
 ├── requirements_full.txt
 ├── Alfalfa_Irrigation_Model.py
